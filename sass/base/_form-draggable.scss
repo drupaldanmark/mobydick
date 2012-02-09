@@ -1,0 +1,92 @@
+
+form .tabledrag-toggle-weight-wrapper{
+	width:95%
+}
+form .tabledrag-processed,
+form .field-multiple-table{
+	@extend .cf;
+	width:95%;
+	margin:0 auto;
+}
+
+form .tabledrag-processed{
+
+}
+form .tabledrag-processed th:first-child{
+//  width:200px;
+  display:block;
+}
+
+form .tabledrag-processed th,
+form .field-multiple-table th{
+	border:none;
+	background: $gray90;;
+}
+form .field-multiple-table th.field-label {
+	padding-left: 5px;
+}
+form .field-multiple-table td{
+	border: none;
+}
+tr.draggable td{
+	vertical-align:top;
+	border-bottom:1px solid $gray90;
+}
+tr.draggable .field-multiple-drag {
+	width:30px;
+}
+tr.draggable .file{
+	display: block-inline;
+}
+tr.draggable .file-size{
+	display: block-inline;
+}
+tr.draggable td{
+	vertical-align:top;
+}
+tr.draggable input[type=submit]{
+
+}
+.draggable .form-type-link-field{
+	input{ width:75%;}
+}
+
+form .field-add-more-submit{
+	margin-left:19px;
+}
+form th label{
+	width:auto;
+}
+
+.draggable a.tabledrag-handle {
+  cursor: move;
+  float: left; /* LTR */
+  height: 20px;
+  margin:  0 2px 0 0; /* LTR */
+  padding: 0 2px 0 0; /* LTR */
+  text-decoration: none;
+}
+a.tabledrag-handle:hover {
+  text-decoration: none;
+}
+a.tabledrag-handle .handle {
+  background: url(../images/draggable.png) no-repeat 0 0;
+  height: 13px;
+  margin-top: 4px;
+  width: 13px;
+}
+a.tabledrag-handle-hover .handle {
+  background-position: 0 -20px;
+}
+
+.draggable small,
+.draggable .description{
+  padding-left:0;
+}
+
+.field-ui-overview input{
+  width:70%
+}
+.add-new-placeholder{
+  border-bottom:1px solid #ccc
+}

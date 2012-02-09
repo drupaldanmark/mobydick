@@ -1,0 +1,91 @@
+// ------------------------------------------------------
+// the grid & gridpre classes for direct input in the html as classes
+// ------------------------------------------------------
+
+@mixin gridgenerator($grid-count: 12, $column-width: 54px,$gutter-width: 30px, $direction:left){
+  //first grid base
+  .g1{
+    float:#{$direction};
+    min-height:1px;
+    word-wrap: break-word;  //word break
+    margin-#{$direction}: $gutter-width;
+    //overflow-x: hidden;
+	//overflow-y: auto;
+
+  }
+
+
+  //create the widths for all the grids
+  @for $i from 1 through $grid-count {
+    .g#{$i} {
+      width: ( ($column-width * $i) + ($gutter-width * ($i - 1) ) ) ;
+
+      //last grid add a clear both
+      @if $i == $grid-count{
+     //   clear: both;
+    //    float:left;
+      }
+
+    }
+  }
+
+  //give all the g's the base float etc. by extending em all
+  @for $i from 1 through $grid-count {
+    //add g2 g3 etc to the grids base
+
+    @if $grid-count > $i {
+      .g#{$i} {
+        @extend .g1;
+      }
+    }
+
+  }
+
+  // -- grid pre --
+  @for $i from 1 through $grid-count {
+    .gp#{$i} {
+      @if $i != $grid-count{
+        margin-#{$direction}: ($column-width + $gutter-width) * $i !important;
+      }
+    }
+  }
+
+  // -- grid pre --
+  @for $i from 1 through $grid-count {
+    .gpost#{$i} {
+      @if $i != $grid-count{
+        margin-right: ($column-width + $gutter-width) * $i !important;
+        background:#d0d;
+      }
+    }
+  }
+
+  .gfull{
+    width: ( ($column-width * $grid-count) + ($gutter-width * ($grid-count - 1) ) ) ;
+    clear: both;
+    min-height: 1px;
+    float: #{$direction};
+  }
+
+  .gf{ margin-#{$direction}: 0!important; clear: #{$direction}; }
+  .clear{float:none;}
+  .left{ text-align:left; }
+  .right{ text-align:right; }
+  .center{ margin:0px auto; float:none; text-align:center; }
+
+  // clearfix...
+  .cf:before,.cf:after {content:""; display:table;}
+  .cf:after {clear:both;}
+  .cf {zoom:1;}  // For IE 6/7 (trigger hasLayout)
+
+}
+
+//calculate the whole pagewidth
+@mixin pagewidth($grid-count: 12, $column-width: 54px,$gutter-width: 30px){
+  width: ( ($column-width * $grid-count) + ($gutter-width * ($grid-count - 1) ) ) ;
+}
+
+@function pagewidth($grid-count, $column-width,$gutter-width){
+  @return  ($column-width * $grid-count) + ($gutter-width * ($grid-count - 1) ) ;
+}
+

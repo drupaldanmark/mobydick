@@ -1,0 +1,501 @@
+
+/*________________________________________________________________________________________________
+project:  Drupal Danmark theme
+Author:   mortendk
+_______________________________________________________________________________________________ */
+
+@import "base";
+@import "grid/girlfriend"; //the grid is generated at the bottom of this page
+$pagewidth : pagewidth($grid-count, $column-width, $gutter-width);
+
+/* -------------------------------------------  * * * ------------------------------------------------
+1. Background
+------------------------------------------------------------------------------------------------- */
+//pattern: http://ptrn.it/yCbBWe
+body{
+	background-color:#f6f6f6;
+}
+
+body.test .page{
+	@include grid-background($grid-count, $column-width, $gutter-width, 20px,20px, #eaeaea, #f2f2f2, #c9e2e8); /*, #ececec #f2f2f2,#ececec, #c9e2e8*/
+//  grid-background($total, $column, $gutter, $baseline, $offset, $column-color, $gutter-color, $baseline-color, $force-fluid)
+}
+
+@import "base/helpers";
+/* -------------------------------------------  * * * -------------------------------------------
+2. Typography & Colors
+------------------------------------------------------------------------------------------------- */
+@import "base/typography";
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+h1,h2, h3, h4, h5, h6{
+	font-family: "museo-sans-rounded", $font-header;
+	font-style: normal;
+	font-weight: 300;
+	margin:0;
+}
+a{
+	color: #129ac2;
+	text-decoration: none;
+	&:visited { color: #129ac2;}
+	&:focus { color: #cccccc;}
+	&:hover { color: #cccccc;}
+}
+h1{
+	color: #222;
+	padding-bottom:10px;
+}
+h2 a{
+	color: #222;
+	text-decoration: none;
+	&:visited{ color: #222; }
+	&:focus  { color: #444; }
+	&:hover  { color: #cccccc; }
+}
+.block .title{
+	//color:#0099cc;
+	color:#666;
+	font-family:	$georgia;
+	font-weight:normal;
+}
+:focus{
+	outline:0;
+}
+
+::-moz-selection { background: #ddd; color: #666; text-shadow: none; }
+::selection { background: #ddd; color: #666; text-shadow: none; }
+
+/* -------------------------------------------  * * * -------------------------------------------
+4. Images
+------------------------------------------------------------------------------------------------- */
+@import "base/image";
+
+/* -------------------------------------------  * * * -------------------------------------------
+5. Tables
+------------------------------------------------------------------------------------------------- */
+@import "base/table";
+
+/* -------------------------------------------  * * * -------------------------------------------
+6. Forms
+------------------------------------------------------------------------------------------------- */
+@import "base/form";
+
+/* -------------------------------------------  * * * -------------------------------------------
+7. nav
+------------------------------------------------------------------------------------------------- */
+@import "base/nav";
+@import "base/list";
+
+/* -------------------------------------------  * * * -------------------------------------------
+8. Layout
+------------------------------------------------------------------------------------------------- */
+header[role="banner"]{
+	background: transparent url('../images/header.jpg') repeat-x;
+		width:100%;
+	height: image-height("../images/header.jpg");
+	margin-top: 0px;
+
+	//center the header content
+	& > div{
+		margin: 0 auto;
+		@include pagewidth($grid-count, $column-width, $gutter-width);
+	}
+
+	figure.logo{
+		@extend .g4;
+		@extend .gf;
+		padding:0;
+		margin:20px 0  0 0;
+	}
+
+	.header{
+		@extend .g8;
+		height:30px;
+		.block{
+			float:right;
+		}
+	}
+	.header_menu{
+		@extend .g8;
+		padding-top: 10px;
+		height:35px;
+		overflow:hidden;
+
+		.block{
+			float:right;
+		}
+
+	}
+
+
+}
+
+	/* --------------------- Layout: main ----------------------------------------------- */
+
+.page{
+	@include pagewidth($grid-count, $column-width, $gutter-width);
+	margin:0px auto;
+	padding:10px 20px 0 20px;
+	@include box-shadow(0px 0px 5px 0px rgba(0, 0, 0, 0.1));
+	background:#f9f9f9;
+}
+div[role="main"]{
+	@extend .g9;
+	@extend .gf;
+	background:rgba(250,250,250,0.5);
+
+}
+//for use with context
+body.front div[role="main"]{
+	@extend .gfull;
+}
+body.onecolumn div[role="main"]{
+	@extend .gfull;
+}
+
+
+
+
+body.two-sidebars div[role="main"]{
+	@extend .g6;
+}
+body.one-sidebar.sidebar-first div[role="main"]{
+	@extend .g9;
+}
+body.one-sidebar.sidebar-second div[role="main"]{
+	@extend .gf;
+	@extend .g9;
+}
+
+.sidebar-one{
+	@extend .gf;
+	@extend .g3;
+	color:#999;
+}
+.sidebar-two{
+	@extend .g3;
+	color:#999;
+}
+
+div.bottom{
+	margin-left:-20px;
+	width: $pagewidth + 40px;
+	float:left;
+
+	& > div{
+		width: ($pagewidth + 40px) / 4;
+		float: left;
+		min-height: 600px;
+		overflow-x: hidden;
+		padding-top:10px;
+	}
+
+	& > .odd {  background-color: #ecf0f3;}
+	& > .even { background-color:#f4f4f4}
+
+	& > div > .block{
+		margin-left:18px;
+		width:224px;
+		overflow-x:hidden;
+	}
+
+}
+
+	/* --------------------- Layout: Footer ------------------------------------ */
+footer[role="contentinfo"]{
+	padding:10px 0;
+	width:100%;
+	background-color: #0097be;
+	min-height:150px;
+	border-top:1px solid #ddd;
+	float:left;
+
+	& > div{
+		margin: 0 auto;
+		@include pagewidth($grid-count, $column-width, $gutter-width);
+	}
+	& > div > div{
+		@extend .g3;
+	}
+	& > div > div:first-child{
+		@extend .gf;
+	}
+
+	aside{
+		@extend .gfull;
+		text-align:center;
+background:pink;
+	}
+
+
+}
+
+	/* --------------------- Layout: Pages------------------------- */
+
+	/* --------------------- Layout: page front -------------------------------------------*/
+
+	/* --------------------- Layout: page types -------------------------------------------*/
+
+/* -------------------------------------------  * * * -------------------------------------------
+Elements Default
+------------------------------------------------------------------------------------------------- */
+
+/* --------------------- Elements Default: Header ------------------------------------*/
+header[role="banner"]{
+	position:relative;
+
+	.block {
+		border:none;
+		padding:0;
+		margin:0;
+
+		h2, .title{
+		@extend .visuallyhidden;
+
+		}
+
+	}
+
+	form{
+		div{
+			padding:0;
+			margin:0;
+			border:none;
+		}
+		input{
+			width:120px;
+			height:15px;
+			line-height:15px;
+			padding:0;
+			margin:0;
+		}
+
+		.form-actions{
+			@extend .visuallyhidden;
+		}
+
+	}
+
+	nav li{
+		float:left;
+
+		a{
+			font-family:"museo-sans-rounded", Helvetica, Arial, sans-serif;
+			font-weight:900;
+			font-size: 16px;
+			line-height:20px;
+			text-transform: uppercase;
+			text-decoration: none;
+			display:inline-block;
+			padding: 3px 0 ;
+			color:#fff;
+			height:30px;
+			}
+		a.active{
+			background: transparent url('../images/menu-active.png') no-repeat center bottom;
+		}
+		a:hover{
+			color:#eee;
+		}
+	}
+
+	figure {
+		border:none;
+	}
+	img{
+		border:none;
+	}
+
+	.header{
+		a{ font-size:12px; }
+		.block{	padding-left:10px;}
+	}
+
+}
+
+	/* --------------------- Elements Default: Main ------------------------------------ */
+
+	.bottom{
+		font-size:13px;
+		line-height:18px;
+		color:#666;
+
+		.title{
+			background: transparent url(../images/animal-penguin.png) no-repeat center left;
+			padding-left:20px;
+			margin-left:10px;
+		}
+
+		& .block-aggregator .title{
+			background-image: url(../images/animal-penguin.png);
+		}
+
+		h3{
+			font-family:$georgia;
+			font-size:15px;
+			line-height:22px;
+			a{
+				color:#333;
+			}
+		}
+
+		img{
+
+		}
+		p, article{
+			margin:0;
+			padding:0;
+
+		}
+		time{
+		font-family:$georgia;
+		}
+		ol,ul{
+			padding:0;
+		}
+
+		li{
+			padding:2px 0;
+		}
+	}
+
+	/* --------------------- Elements Default: Sidebars --------------------------------*/
+.sidebar-two{
+	h2{
+		font-size:14px;
+	}
+
+	nav{
+
+	}
+
+	ul li{
+		display:block;
+	}
+
+	form{
+		label{
+			display:block;
+			width:90%;
+			text-align:left;
+		}
+		input{
+		//  width:90%;
+		}
+		.description, small{
+			padding-left:0;
+		}
+	}
+
+}
+
+	/* --------------------- Elements Default: Footer --------------------------------------- */
+footer[role="contentinfo"]{
+
+	.block {
+		border:none;
+		padding:0;
+		margin:0;
+
+		h2, .title{
+		background:pink;
+		@extend .visuallyhidden;
+
+		}
+
+	}
+
+	a{color:#fff}
+
+}
+
+/* --------------------- Elements node   ----------------------------------*/
+@import "modules/node";
+@import "modules/comment";
+
+/* --------------------- Elements Menu   ----------------------------------*/
+//@import "modules/menu_dropdown";
+
+/* -------------------------------------------  * * * -------------------------------------------
+14  Widgets
+------------------------------------------------------------------------------------------------- */
+
+/* --------------- Drupal widgets ------------------------------------- */
+@import "modules/drupal";
+@import "modules/admin";
+@import "modules/forum";
+/* -------------------------------------------  * * * -------------------------------------------
+Effects
+------------------------------------------------------------------------------------------------- */
+@import "effect/tooltip";
+
+.half li{
+	width:50%
+}
+.third li{
+	width:33%
+}
+.quart li{
+	width:25%
+}
+
+
+.shadow{
+
+	li{
+		position:relative;
+		padding:10px 0;
+		display:inline-block;
+	}
+	img{
+		border:5px solid #fff;
+		margin-left:2px;
+		z-index:1;
+		position:relative;
+
+		@include box-shadow(0px 0px 2px 0px rgba(0, 0, 0, 0.5));
+	}
+	a:hover img{
+		opacity: 0.5;
+		-moz-opacity: 0.5;
+		filter:alpha(opacity=50);
+		@include box-shadow(0px 0px 2px 0px rgba(0, 0, 0, 0.2));
+	}
+	h4{
+		display:inline-block;
+		position:absolute;
+		left:0;
+		bottom:$baseline;
+		z-index:100;
+		padding:0 5px;
+		margin:0 6px;
+
+		background: rgba(250, 250, 250, 0.8);
+		color:#222;
+	}
+	h4 a {
+		color:#222;
+	}
+}
+
+/* -------------------------------------------  * * * -------------------------------------------
+15 Icons
+------------------------------------------------------------------------------------------------- */
+//sprites
+//@import "icon/*.png";
+//@include all-icon-sprites;
+
+//@import "modules/icons";
+
+/* -------------------------------------------  * * * -------------------------------------------
+GRID
+------------------------------------------------------------------------------------------------- */
+//the grid is defined down here so we have a chance to use firebug ;)
+@include gridgenerator($grid-count, $column-width,$gutter-width, $direction);
+@import "base/helpers";
+
+/* -------------------------------------------  * * * -------------------------------------------
+Here be dragons ...
+------------------------------------------------------------------------------------------------- */
+//@import "bourbon/addons/button";
+

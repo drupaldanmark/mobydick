@@ -1,0 +1,64 @@
+//------------------------------------------------------------
+// Mixins
+//------------------------------------------------------------
+
+// Add percentage of white to a color
+@function tint($color, $percent){
+  @return mix(white, $color, $percent);
+}
+
+// Add percentage of black to a color
+@function shade($color, $percent){
+  @return mix(black, $color, $percent);
+}
+
+
+//Shade til images
+@mixin image-shadow($width : '100px', $margin: '0 0 0 20px', $border: '1px solid white', $color:'', $hoff:'', $voff:'', $blur:'', $spread:''){
+  @include single-box-shadow($color, $hoff, $voff, $blur, $spread);
+  width:$width;
+  min-height:$width / 2;
+  margin:$margin;
+  @if($border){
+    border:$border;
+  }
+  display:block;
+}
+
+//fix width
+@mixin boxwidth($width:100px,$padding-left:0,$padding-right:0 ,$margin-left:0, $margin-right:0){
+  width: ($width - ($padding-left + $padding-right + $margin-left + $margin-right)) ;
+  @if $padding-left > 0 {
+    padding-left: $padding-left;
+  }
+  @if $padding-right > 0 {
+    padding-right: $padding-right;
+  }
+  @if $margin-left > 0 {
+    margin-left: $margin-left;
+  }
+  @if $margin-right > 0 {
+    margin-right:$margin-right;
+  }
+}
+
+@function boxwidth($width,$padding-left:0,$padding-right:0 ,$margin-left:0, $margin-right:0){
+  @return $width - ($padding-left + $padding-right);
+}
+
+//fix width
+@mixin boxheight($height:100px,$padding-top:0,$padding-bottom:0 ,$margin-top:0, $margin-bottom:0){
+  height: ($height - ($padding-top + $padding-bottom + $margin-top + $margin-bottom)) ;
+  @if $padding-top > 0 {
+    padding-top: $padding-top;
+  }
+  @if $padding-bottom > 0 {
+    padding-bottom: $padding-bottom;
+  }
+  @if $margin-top > 0 {
+    margin-top: $margin-top;
+  }
+  @if $margin-bottom > 0 {
+    margin-bottom:$margin-bottom;
+  }
+}

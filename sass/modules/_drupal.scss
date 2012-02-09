@@ -1,0 +1,416 @@
+/* ------------------------------------------------------------------------------------------------------------
+	Drupal elements
+------------------------------------------------------------------------------------------------------------ */
+
+/* ----------------1 admin ------------------- */
+//admin
+body.admin-menu{
+  background-position: 0 21px!important;
+}
+
+/* 1 Messages  */
+@mixin  messagebox($color){
+  background: $color;
+  border-color: darken($color, 30%);
+  color:desaturate(darken($color, 50%), 60%);
+
+  a{
+    color:desaturate(darken($color, 50%), 60%);
+  }
+  li{
+    border-color:desaturate(darken($color, 50%), 60%);
+  }
+
+}
+
+.warning{
+	@include messagebox(#fef5f1)
+}
+
+.messages{
+	width: 90%;
+	margin: $baseline/2 auto;
+	clear: both;
+  padding: $baseline/2 20px ;
+	font-size: $basefont;
+  border:1px dotted;
+  //background: #eee url('../images/message-24-error.png') no-repeat 10px 10px ;
+  @include border-radius(3px);
+	li{
+		border-bottom:1px dashed;
+		padding:5px 0;
+    width:95%;
+    list-style: none inside;
+	}
+	a{font-weight:bold;}
+
+	//green
+	&.status{
+    @include messagebox(#f8fff0 );
+  }
+  //yello
+	&.warning{
+    @include messagebox(#fffce5);
+  }
+  //red
+	&.error{
+    @include messagebox(#fef5f1);
+  }
+
+}
+
+/* status
+.node-unpublished, .comment-unpublished
+*/
+.unpublished{
+	background-color:#fddfde;
+	background-color:rgba(253, 223, 222,.7);
+	@include box-shadow(inset 0px 0px 1px 0px #eab8b6); //sneaky border
+}
+
+/* 2 Tabs */
+nav.tabs{
+	padding:0px 10px 0 0;
+	margin:5px 10px 5px 0;
+
+	li{
+		display:inline-block;
+	}
+  	.active{
+	  	font-weight:bold;
+		background:#ededed;
+		text-decoration:none;
+  	}
+	.primary{
+
+ 	}
+ 	.secondary{
+
+ 	}
+}
+
+/* 3 Contextual  */
+
+
+/* 4 Pager  */
+.item-list-pager {
+  padding:5px 0;
+  text-align:center;
+
+}
+.pager{
+  display:inline-block;
+  li{
+		float:left;
+		display:inline-block;
+		//set the base for each element
+    a,
+		&.current,
+		&.ellipsis {
+			padding:5px 10px;
+			border:1px solid #ddd;
+			border-right:none;
+			background:#efefef;
+		}
+    a{
+      display:block;
+    }
+    a:hover{
+			background:#ececec;
+			cursor: pointer;
+			@include text-shadow(rbga(1,50,50,0.9), 0px, 0px, 2px);
+			text-decoration:none;
+		}
+    &.first a{
+			@include border-radius(3px 0 0 3px);
+    }
+    &.last a{
+			@include border-radius(0 3px 3px 0);
+			border-right:1px solid #ddd;
+    }
+    &.current{
+			background-color:#eaeaea;
+			font-weight:bold;
+			color:#666;
+		}
+
+		&.ellipsis {
+			color:#ccc;
+			padding:5px;
+		}
+
+    &.next{
+
+    }
+
+    &.last{
+
+    }
+
+    &.previous{
+
+    }
+  }
+
+}
+
+.breadcrumb{
+	border-bottom:1px solid #ddd;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+/* ------------------------------------------------------------------------------------------------------------
+5 Drupal widgets
+------------------------------------------------------------------------------------------------------------ */
+
+/* block */
+.block{
+  margin-bottom:5px;
+  padding-bottom:5px;
+  //border-bottom:1px solid #ccc;
+
+  .title{
+    font-size:$basefont * 1.2;
+    line-height:$baseline;
+  }
+  h3{
+        font-size:$basefont * 1;
+
+  }
+}
+
+.status-404{
+//	background-color:pink;
+}
+
+.site-slogan{
+  color:#aaa;
+  width:160px;
+  display:block;
+  font-weight:700;
+  font-size:11px;
+  line-height:12px;
+  float:left;
+}
+
+/* ----------------------------- drupal widgets: user login.------------------------------------------------ */
+
+/*--------------- user  login  ----*/
+#user-login, #user-register-form, #user-pass{
+  width:385px;
+  margin:10px auto;
+  background:#eee;
+  border:1px solid #ddd;
+  padding:10px;
+  @include border-radius(5px);
+
+  a{
+   font-size:$basefont * 0.5;
+   font-size:$baseline * 0.5;
+   text-decoration: none;
+   font-weight:bold;
+  }
+
+  label{
+   text-align:left;
+   width:0px;
+   text-indent: -9999px;
+   padding:0;
+   margin:0;
+  }
+  label[for="edit-mollom-captcha"]{
+   width:100%;
+   text-indent: 0px;
+  }
+  input{
+   width:350px;
+   padding-left:20px;
+  }
+  //iconer
+  #edit-name, .username{
+    background: #fff url(../images/bijou/Person.png) no-repeat  5px center;
+  }
+  input[type="password"]{
+    background: #fff url(../images/bijou/key.png) no-repeat  5px center;
+  }
+  input[type="email"], input[name="conf_mail"]{
+    background: #fff url(../images/bijou/Email.png) no-repeat  5px center;
+  }
+
+  #edit-mollom-captcha{
+    display:inline-block;
+    background: #fff url(../images/bijou/tv.png) no-repeat  5px center;
+  }
+
+  .form-type-textfield,
+  .form-type-password{
+     padding:3px 0;
+     margin:0;
+  }
+
+
+  .form-actions{
+    float:none;
+    padding:0px;
+    text-align:left;
+
+    input{
+      margin:0
+    }
+
+  }
+
+}
+
+/* ----------------------------- drupal widgets: password gen.------------------------------------------------ */
+//wonder why these class names seems to stick no matter what we do oooh well lets use em
+/*
+input.username{
+  width:30%;
+}
+#edit-mail{
+  width:30%;
+}
+*/
+.confirm-parent, .password-parent {
+	width:auto
+}
+.form-type-password-confirm{
+	position:relative;
+  display:block;
+
+  .password-suggestions {
+    position: relative!important;
+    ul{
+      padding-left:0;
+      list-style: none inside;
+    }
+  }
+
+}
+
+
+//strength indicator
+.password-strength{
+  position:absolute;
+ 	left:290px;
+	top:-11px;
+
+  //hide the password text indicator weak/stong etc
+  .password-strength-text{
+    display:none;
+  }
+  .password-strength-title{
+		text-indent:-900em;
+  }
+	.password-indicator{
+	  background-color: #eee;
+	  height: 15px;
+	  width: 60px;
+		@include border-radius(3px);
+	}
+
+	//succes bar
+  .password-indicator div {
+    height: 100%;
+    width: 0%;
+    background-color:#ddd;
+    @include border-radius(3px);
+  }
+
+}
+
+//confirm icon
+div.password-confirm{
+  text-indent:-999em;
+	position:absolute;
+  top:28px;
+  left:330px;
+
+  .ok{
+    display:block;
+    width:20px;
+    height:20px;
+    background: transparent url(../images/bijou/like.png) no-repeat  center center;
+  }
+  .error{
+    display:block;
+    width:20px;
+    height:20px;
+    background: transparent url(../images/bijou/remove.png) no-repeat center center;
+  }
+}
+
+//status for user
+#edit-status{
+  padding-left:19%;
+}
+
+//block
+#user-login-form{
+	.form-type-textfield,
+	.form-type-password{
+		padding:5px 0;
+		text-align:right;
+	}
+
+
+	label{display:none;}
+	input{width:90%;}
+	.oldie & label{	width:40%; display: inline}
+	.oldie & input{	width:50%;}
+	.ie9 & label{	width:40%; display: inline}
+	.ie9 & input{	width:50%;}
+
+	.form-actions{
+		text-align:right;
+	}
+	input[type=submit]{
+		width:auto;
+	}
+
+	small{
+		text-align:right
+	}
+
+	.register{
+	text-align:center;
+	}
+}
+
+
+
+/* ----------------------------- drupal widgets: search.------------------------------------------------ */
+.search{
+  input[type="search"]{
+    @include boxwidth(125px, 10px);
+    height:23px;
+    background: url(../images/search.png) no-repeat;
+    border:none;
+    float:left;
+		@include box-shadow(0px 0px 0px 0px rgba(82, 168, 236, 1) );
+		@include border-radius(0px);
+  }
+
+  input[type="submit"], input[type="submit"]#edit-submit{
+    @include boxwidth(28px);
+		padding:0;
+		margin:0;
+    height:23px;
+		background-image:none;
+		background-color: transparent;
+    background: transparent url(../images/search-submit.png) no-repeat;
+
+    @include hide-text;
+    float:left;
+    border:none;
+		@include border-radius(0px);
+		@include box-shadow(0px 0px 0px 0px rgba(82, 168, 236, 1) );
+  }
+
+	.form-actions{
+		float:none;
+	}
+}
+
+

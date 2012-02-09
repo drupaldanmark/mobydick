@@ -1,0 +1,121 @@
+img {
+	max-width: 100%;
+}
+figure {
+	margin:0;
+	padding:0;
+	//padding:5px;
+	//border: 1px solid #ccc;
+	display:inline-block;
+	}
+figure img{
+//	border:1px solid #666;
+}
+figcaption {
+	text-align: center;
+	color:#ccc;
+}
+
+.thumpnail-list{
+  margin-bottom:5px;
+  @extend .cf;
+  li{
+    padding:5px 0;
+    @extend .g2;
+
+    &:first-child{
+      @extend .gf;
+    }
+
+  }
+
+  article{
+    padding-bottom:5px;
+  }
+
+  a{
+    display:block;
+    margin:0 4px;
+  }
+  img{
+    @include image-shadow(132px, 0 0 0 2px, 2px solid white, gray, 0, 0, 5px, 0);
+    margin:0 0 5px 0px;
+    z-index:1;
+  }
+  a img{
+    @include image-shadow(132px, 0 0 0 2px, 2px solid white, gray, 0, 0, 5px, 0);
+    margin:0 0 5px -4px;
+    &:hover{
+      @include image-shadow(132px, 0 0 0 1px, 2px solid white, gray, 0, 0, 3px, 0);
+      margin:0 0 5px -4px;
+    }
+
+
+  }
+  h3 a{
+    color:#fff;
+    font-size:11px;
+    line-height:20px;
+
+    height:22px;
+    width:130px;
+    margin: -32px 0 0 2px;
+    padding:3px 1px 0;
+    background-color:#444\9; /* IE*/
+    background-color:rgba(50, 50, 50, .9);
+    overflow:hidden;
+    position:absolute;
+    z-index:100;
+
+    text-transform: none;
+    text-align:center;
+
+    &:hover{
+      text-decoration: none;
+      color:#ddd;
+    }
+
+  }
+  h4{
+    text-align:center;
+    text-transform: none;
+    font-size:10px;
+    line-height:11px;
+  }
+
+}
+.thumpnail-list-small{
+  padding:5px 0;
+  @extend .shade;
+  @extend .cf;
+
+  h2{
+    margin:10px 0;
+    @extend .shade;
+  }
+
+  ul li{
+    @extend .g1;
+    a{
+      font-size: $basefont * 0.9;
+      line-heigth:$baseline * 0.7;
+    }
+    img{
+      margin:0 0 0 1px;
+      width:50px; //138
+      border:1px solid #ccc;
+      @include single-box-shadow(#444, 0px, 0px, 4px, 0);
+    }
+
+  }
+
+
+}
+.shade{
+  .boxshadow &{
+    @include box-shadow(0px 1px 0px 0px rgba(219, 219, 219, 1),0px 2px 0px 0px rgba(255, 255, 255, 1));
+  }
+  .no-boxshadow &{
+    border-bottom:1px solid #ddd;
+  }
+}

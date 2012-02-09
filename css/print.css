@@ -1,0 +1,43 @@
+/* line 6, ../sass/print.scss */
+.messages,
+.sidebar,
+.tabs,
+.breadcrumb,
+header.top {
+  display: none; }
+
+/* line 11, ../sass/print.scss */
+body {
+  background: #fff;
+  color: #000;
+  font-size: 12pt;
+  line-height: 18pt; }
+
+/* line 18, ../sass/print.scss */
+h1 {
+  font-family: "museo-sans",sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 40pt;
+  line-height: 50pt; }
+
+/* line 27, ../sass/print.scss */
+.page {
+  overflow: hidden; }
+
+/* line 33, ../sass/print.scss */
+a {
+  color: #129ac2;
+  text-decoration: underline!important; }
+  /* line 18, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:visited {
+    color: #567cb0; }
+  /* line 21, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:focus {
+    color: #cccccc; }
+  /* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: #cccccc; }
+  /* line 27, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:active {
+    color: #567cb0; }

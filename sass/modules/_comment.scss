@@ -1,0 +1,101 @@
+//.comment-wrapper{}
+#comments{
+
+	article{
+		position:relative ;
+		padding:5px 0;
+		margin:5px 0;
+		border-top:1px solid #ccc;
+
+		a{
+			color:#6F9AB2;
+		}
+		a:hover{
+			background-color:#eee;
+			color:#6F9AB2;
+		}
+		
+		mark{
+			background: url('../images/pictos/89.png') no-repeat scroll top left;
+			padding-left:20px;
+			text-indent: -999em;
+			margin-top:5px;
+			display:inline-block;
+			float:left;
+
+		}
+
+		.permalink{
+			background: url('../images/bijou/external-link.png') no-repeat scroll center left;
+			padding:0 0 0 20px;
+			text-indent: -999em;
+			display:inline-block;
+			float:right;
+			
+		}
+
+		.reply{
+			background: #efefef url('../images/bijou/reply.png') no-repeat scroll 3px 10px;
+		  @include border-radius(2px);
+			border:1px dotted #ccc;
+			padding:2px 7px 2px 20px;
+			margin-left:24px;
+			display:inline-block;
+			&:hover{
+			background-color:#ddd;
+			border:1px dotted #bbb;
+			}
+		
+		}
+
+		footer{
+			color:#999;
+			padding-top:2px;
+			margin-left:24px;
+			margin-top:2px;
+			text-align:left;
+
+		}	
+	
+		.content{
+			padding-left: 24px;
+
+			a{
+			//	background-color:#eee;
+			}
+			
+		}
+	
+		.links{
+
+			float :right;
+			font-size:$basefont * 0.8;
+		}
+		
+	}
+
+	form{
+		border-top:1px solid #ccc;
+	}
+
+	label{
+
+	}
+}
+
+.indented{
+	padding-left:20px;
+}
+
+.comment-by-anonymous{
+
+}
+.comment-by-viewer{
+
+}
+.comment-by-node-author{
+
+}
+.new{
+
+}

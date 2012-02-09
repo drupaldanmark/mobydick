@@ -1,0 +1,897 @@
+/*
+label
+input 
+buttons
+password
+textarea
+select
+radio
+messages
+focus
+drupal widgets
+*/
+/*------------------------------------------------
+form default
+//------------------------------------------------*/
+form {
+
+}
+
+/* ----------------------------- Label  ------------------------------------------------ */	
+label{
+	font-weight: bold;
+}
+form  label{
+	font-size: $basefont ;
+	line-height: $baseline;	
+	color: $form-color-label;
+	padding-right: 10px;
+  height: $baseline;	
+	display:inline-block;
+}
+.ie7 form label{
+	float:left;
+}
+
+/* ----------------------------- input  ------------------------------------------------ */	
+input,textarea,select {
+  border: 1px solid $gray75;
+  background-color: white;
+  color: $gray25;
+  display: inline-block;
+  padding: 4px;
+  @include border-radius(0 3px 3px 0);
+}
+input{
+  font-size: $basefont;
+  height: $baseline * 1;
+  line-height: $baseline * 1;
+	width:80%;
+	display:inline-block;	
+}
+
+/* ----------------------------- placeholder  ------------------------------------------------ */	
+:-moz-placeholder { 
+	color: #ccc; 
+	font-weight:bold
+}
+::-webkit-input-placeholder { 
+	color: #ccc; 
+	font-weight:bold
+}
+
+/* ----------------------------- input: radio & checkbox ------------------------------------------------ */
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 3px 0;
+  vertical-align: baseline;
+  *margin-top: 0; /* IE7 */
+  *vertical-align: baseline; /* IE7 */
+}
+
+/* ----------------------------- input: File upload ------------------------------------------------ */
+input[type=file] {
+  background-color: transparent;
+  border: initial;
+  line-height: $baseline * 1.5;
+  line-height: initial;
+  padding: initial;
+  vertical-align: middle;
+  height: $baseline * 1.5; 
+	width: auto;
+  *height: auto;
+  *margin-top: 4px;
+}
+
+/* ----------------------------- input types ------------------------------------------------ */
+input[type="number"] {
+//	width:10%;
+}
+input[type="tel"] {
+//	width:20%;
+}
+input[type="url"] {
+
+}
+input[type=password] {
+//	width:30%;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+//	width:30%;
+}
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
+
+/* ----------------------------- select ------------------------------------------------ */
+select{
+  font-size: $basefont;
+  height: $baseline * 1.2;
+  line-height: $baseline * 1.2;
+	border:1px solid $gray75;
+	background:white;
+	display: inline-block;	
+	border-radius: 3px;
+	padding:0;
+}
+select[multiple] {
+  height: inherit;
+  background-color: white;
+}
+
+/* ----------------------------- textarea ------------------------------------------------ */
+textarea {
+	font-size: $basefont;
+	line-height: $baseline;
+  height: auto;
+}
+form .resizable-textarea{
+	width:80%;
+	display:inline-block;
+}
+
+/* ----------------------------- Disabled ------------------------------------------------ */
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  background-color: #eee;
+  border-color: #ddd;
+  cursor: not-allowed;
+	@include box-shadow(inset 0px 0px 3px 0px rgba(50, 50, 50, .4) );
+}
+
+/* ----------------------------- buttons ------------------------------------------------ */
+input[type=button],input[type=reset],input[type=submit] {
+  width: auto;
+  height: auto;
+	cursor: pointer;
+	display:inline-block;
+  padding: 5px 14px 6px;
+  text-shadow: 0 1px 1px rgba(255,255,255,.75);
+  color: #444;
+
+	background:#efefef;
+  @include border-radius(3px);	
+  border: 1px solid #ccc;
+	@include background-image(linear-gradient(#fff, #ddd)); 
+	@include box-shadow(inset 0px 2px 1px rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05));
+
+	@include transition(border linear .25s);
+
+	&:hover{
+		border: 1px solid #c6c6c6;
+		@include background-image(linear-gradient(#efefef, #ededed)); 
+	
+	}
+
+
+	&#edit-submit{
+  //  background-color: #0064CD;
+//		@include background-image(linear-gradient(#049CDB, #0064CD)); 			
+    color: #444;
+		font-weight:bold;
+ //   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	}	
+	&#edit-delete{
+		color:#900;
+	}
+}
+
+input[type=submit] { 
+	&:hover{
+//		@include box-shadow(inset 0px 2px 1px rgba(255,255,255,.5), 0 0px 5px rgba(82, 168, 236,.5));
+//		border-color: rgba(82, 168, 236, 0.5);
+	}	
+}
+input[type=reset] { 
+
+}
+input[type=button] { 
+
+}
+
+.form-actions{
+	text-align:right;
+  padding:0 0 20px 0;
+  input{
+    margin:5px;
+  }
+}
+
+/* ----------------------------- 	field description  ------------------------------------------------ */
+form .description, 
+form small{
+  display:block;
+	color:$gray50;
+	font-size: $basefont * 0.8;
+	line-height: $baseline * 0.8;
+}
+
+#user-admin-permissions .description, 
+#user-admin-permissions small{
+	padding-left:0
+}
+
+
+/* ----------------------------- focus & state ------------------------------------------------ */
+/* labels */
+form label:hover{
+	color: $form-color-label-hover;
+	cursor: pointer; 
+}
+/* input */
+input, textarea {
+	@include transition( border linear 0.2s, box-shadow linear 0.2s);
+}
+.form-item > label:hover ~ input{
+	@include box-shadow(0px 0px 3px 0px rgba(50, 50, 50, 0.2) );
+	background:#eee;
+}
+.form-item.required > label:hover ~ input{
+	@include box-shadow(0px 0px 3px 0px rgba(50, 50, 50, 0.2) );
+}
+
+input, textarea, select{
+	&:hover{
+		background:#F7F7F7;	
+		border: 1px solid;
+		border-color:#52a8ec;
+		border-color: rgba(82, 168, 236, 0.8);
+		@include box-shadow(0px 0px 2px 0px rgba(82, 168, 236, .9) );
+	}
+	&:focus{
+		outline: 0;
+		border: 1px solid;
+		border-color:#52a8ec;
+		border-color: rgba(82, 168, 236, 0.8);
+		@include box-shadow(0px 0px 5px 0px rgba(82, 168, 236, .4) );
+	}
+	&:focus:invalid {
+
+	}
+
+	&[required]{
+
+		&:hover{
+
+		}
+		&:focus{
+
+		}
+	}
+
+}
+
+input[type=password]{
+	&::-webkit-input-placeholder { 
+		font-weight:bold
+	}
+	&:-moz-placeholder { 
+		font-weight:bold
+	}
+	&:hover{
+
+	}
+	&:focus{
+	
+	}
+	&:invalid { 
+
+	}
+}	
+input[type=radio]:checked  ~ label,
+input[type=checkbox]:checked  ~ label {	
+	background:$gray90;
+  @include border-radius(3px);
+}
+
+input[type=radio] ~ label:hover,
+input[type=checkbox] ~ label:hover{
+	background:#efefef;
+}
+	
+.required:after,
+.form-field-required:after{ 
+	color: #900;
+	content:" * " 
+}
+//wrapper around the input & label
+.form-required{
+	background:#ededed;
+}
+
+
+/* ----------------------------- Drupal form field wrappers ------------------------------------------------ */
+//outer wrapper
+//TODO split between forms & the fields displayed in a node
+
+//main wrapper between each field
+.form-wrapper{
+	padding:5px 0;
+	margin:5px 0;
+	border-bottom:1px solid pink;
+}
+
+/*
+form{
+	.field-type-text-long, .field-widget-text-textarea,
+	.field-type-list-text, .field-widget-options-select, .field-widget-options-buttons,
+	.field-type-list-integer, 
+	.field-type-list-text, 
+	.field-type-list-boolean,
+	.field-type-text, .field-widget-text-textfield,
+	.field-type-text-with-summary,
+	.field-type-image, .field-widget-image-image,
+	.field-type-taxonomy-term-reference, .field-widget-taxonomy-autocomplete,
+	.field-type-date, .field-type-datetime ,
+	.field-type-email,
+	.field-type-file,
+	.field-type-number-decimal, .field-type-number-float, .field-type-number-integer , 
+	.field-type-link-field, .field-widget-link-field, 
+	.field-type-node-reference,
+	.field-type-user-reference 
+	.form-type-textarea,
+	.form-type-password,
+	.form-type-textfield,
+	.form-type-select{
+	 // padding:5px 0;	
+	//	margin:5px 0;
+	}
+
+}
+
+//form item wrappers problem is this is areound every goddamn form field
+form .form-item{
+
+}
+
+//split base form elementer
+.form-type-urlfield,
+.form-type-textfield, 
+//.form-type-checkbox,
+//.form-type-radio,
+//.form-type-link-field,
+.form-type-checkboxes,
+.form-type-numberfield,
+.form-type-radios,
+.form-type-select,
+.form-type-password,
+.form-type-managed-file,
+.form-type-image {
+	
+}
+*/
+
+// here we go basic form fields
+.form-type-textarea,
+.form-type-managed-file,
+.form-type-radios,
+.form-type-machine-name,
+.form-type-file,
+.form-type-urlfield,
+.form-type-textfield,
+.form-type-select{
+	padding:2px 0;
+	margin:2px 0;
+	&:hover{
+		background: #fff;
+	}
+	
+	label{
+		width:120px;
+		text-align:right;
+		background:#efefef;
+	  @include border-radius(3px 0 0 3px);
+	}
+	small{
+		padding-left:120px;
+	}
+}
+
+
+
+
+//select
+.form-type-select{
+	label{
+		vertical-align:top;
+	}
+	small, .description{
+		padding-left:120px;
+	}
+
+}
+
+//Checkboxes
+form .form-type-checkboxes{
+	@extend .shade;
+	 padding: $baseline / 2  0;
+	label{
+		vertical-align:top;		
+	}
+	.form-checkboxes{
+		display:inline-block;
+	}
+
+}
+form .content_access-div .form-type-checkboxes > label{
+	width:100%;
+	text-align:left;
+	cursor: default;
+}
+form .form-type-checkbox{
+	padding:5px 0;
+	label{
+		width:auto;
+		font-weight:normal;
+		font-size: $basefont
+	}
+	small, .description{
+		padding-left:14px;
+	}
+}
+
+//Radio
+form .form-type-radios{
+	label{
+		vertical-align:top;
+	}
+	.form-radios{
+		display:inline-block;
+		width:70%;
+		label{
+			text-align:left;
+		}
+	}
+}
+form .form-type-radio{
+	label{
+		width:auto;
+		font-weight:normal;
+		font-size: $basefont
+	}
+	small, .description{
+		padding-left:14px;
+	}
+	
+}
+
+form .form-type-textfield{
+
+}
+form .form-type-textarea{
+	margin:5px 0;
+
+	.form-textarea-wrapper{
+		display:inline-block;
+		width:80%;
+		vertical-align:top;
+	}
+	small, .description{
+		padding-left:19%;
+	}
+
+}
+form .field-type-text-long{
+	small, .description{
+		padding-left:19%;
+	}
+
+}
+
+form .form-type-link-field{
+	& > label{
+	width:98%;
+	border-bottom:1px solid #ddd;
+	}
+
+
+}
+
+form .field-type-taxonomy-term-reference{
+	margin:5px 0;
+	small, .description{
+		padding-left:19%;
+	}
+}
+form .form-type-managed-file{
+	label{
+		vertical-align:top;
+	}
+	.form-managed-file{
+		display:inline-block;
+	}
+
+	small, .description{
+		padding-left:19%;
+	}
+	
+}
+form .field-type-datetime,
+form .form-type-date{
+	@extend .shade;
+	margin:5px 0;
+	padding:5px 0;	
+}
+form .field-type-email {
+
+}
+form .form-type-rangefield{
+	input{
+		width:75%;
+	}
+}
+form .form-type-numberfield{
+	input{
+		width:10%;
+	}
+
+}
+
+
+/* ----------------------------- upload: images ------------------------------------------------ */
+.form-type-managed-file{
+	label{
+		width:120px;
+	}
+}
+
+.image-widget-data input[type=file]{
+	cursor: copy;
+}
+//firefox fun...
+.image-widget-data input[type=file] , x:-moz-any-link  { 
+//	height:20px;
+}
+.image-preview{
+	width:100px;
+	height:60px;
+	padding:0 5px;
+	margin:0 5px;
+	background:#eee;
+	float:left;
+}
+.image-widget-data{
+	float:left;
+	width:80%;
+	label{
+		width:20%;
+	}
+	input{
+		width:70%
+	}
+	input[type=submit]{
+		width:auto;
+	}
+	small, .description{ 
+		padding-left:32%
+	}
+	.file{
+		display:inline-block;
+	}
+	.file-size{
+		display:inline-block;
+	}
+}
+
+.image-widget .form-managed-file{ 
+
+}
+
+/* ----------------------------- drupal widgets: image file ------------------------------------------------ */
+
+
+/* ----------------------------- drupal form multiples ------------------------------------------------ */
+form .form-item-multiple{
+	border:1px solid $gray90;
+	padding:  $baseline / 2 0 
+}
+form .form-item-multiple div.form-item{
+   @include box-shadow(0px 0px 0px 0px rgba(219, 219, 219, 1),0px 0px 0px 0px rgba(255, 255, 255, 1));
+}
+form .field-multiple-table fieldset{
+	border:none;
+}
+form .form-item-multiple fieldset .form-type-checkbox{
+	padding:0;
+	margin :0;
+	margin:0 auto;	
+}
+
+/* ----------------------------- drupal form dragables table ------------------------------------------ */
+@import "form-draggable"; 
+
+/* ----------------------------- Fieldset ------------------------------------------------ */
+@import "form-fieldset"; 
+
+/* ----------------------------- drupal widgets ------------------------------------------------ */
+
+/* ----------------------------- drupal widget: vertical taps ------------------------------------------------ */
+form .vertical-tabs{
+	label{
+		width:80%;
+		text-align:left;
+	}
+	input, textarea{
+		width:90%
+	}
+
+	input[type=submit],input[type=checkbox], input[type=radio]{
+		width:auto
+	}
+	small, .description{
+		padding-left:0;
+	}
+}
+
+/* ----------------------------- Drupal widget: autocomplete  ------------------------------------------------ */
+#autocomplete {
+  border: 1px solid $gray90;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+	@include box-shadow(0px 0px 5px 0px rgba(120, 120, 120, 0.7) );	
+  @include border-radius(3px);	
+}
+#autocomplete ul {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+#autocomplete li {
+  background: #fff;
+  color: #000;
+  cursor: default;
+  white-space: pre;
+	border-bottom:1px solid $gray90;
+	padding:3px;
+	cursor:pointer;
+}
+#autocomplete li:hover{
+	background:$gray90;
+	font-weight:bold;
+}
+.field-widget-taxonomy-autocomplete input{
+	font-weight:bold;
+}
+
+/* ----------------------------- Drupal widget autocomplete Animated throbber  ------------------------------------------------ */
+html.js input.form-autocomplete {
+  background-image: url(../images/throbber.gif);
+  background-position: 100% 10px; /* LTR */
+  background-repeat: no-repeat;
+}
+html.js input.throbbing {
+  background-position: 100% -18px; /* LTR */
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------
+Progress bar
+------------------------------------------------------------------------------------------------------------ */
+.progress .bar {
+  background-color: #fff;
+  border: 1px solid;
+}
+.progress .filled {
+  background-color: #000;
+  height: 1.5em;
+  width: 5px;
+}
+.progress .percentage {
+  float: right; /* LTR */
+}
+/* Throbber */
+.ajax-progress {
+  display: inline-block;
+}
+.ajax-progress .throbber {
+  background: transparent url(../../misc/throbber.gif) no-repeat 0px -18px;
+  float: left; /* LTR */
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+}
+.ajax-progress .message {
+  padding-left: 20px;
+}
+tr .ajax-progress .throbber {
+  margin: 0 2px;
+}
+.ajax-progress-bar {
+  width: 16em;
+}
+
+/* ----------------------------- Drupal widget: textarea grippie  ------------------------------------------------ */
+//TODO: needs work
+.form-textarea-wrapper textarea {
+  display: block;
+  margin: 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.resizable-textarea .grippie {
+  background: #eee url(../images/grippie.png) no-repeat center 2px;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  cursor: s-resize;
+  height: 9px;
+  overflow: hidden;
+}
+.resizable-textarea .grippie{
+	background:none;
+	border:none;
+}
+.resizable-textarea .grippie:hover{
+
+}
+
+/* ----------------------------- Drupal widget: text input Filter selector ------------------------------------------------ */
+form .filter-wrapper{
+	@extend .cf;
+	padding:0 ;
+	width:99%;
+}
+form .filter-wrapper label{
+	width:120px;
+	text-align:right;
+	font-weight:normal;
+  font-size: $basefont * 1;
+	vertical-align:medium;
+	color:lightgray;
+}
+form .filter-wrapper .fieldset-wrapper{
+	border:none;
+	padding:0;
+	margin:0;
+}
+form .filter-wrapper .form-type-select{
+	@include box-shadow(0px 0px 0px 0px rgba(50, 50, 50, 0) );
+	border:none;
+	float:right;
+}
+form .filter-help{float:right; display:none}
+form .filter-guidelines{float:left; display: none}
+
+/* ----------------------------- drupal widgets: date ------------------------------------------------ */
+.date-clear {
+  clear: auto;
+  display: block-inline;
+  float: none;
+}
+.date-no-float {
+  clear: none;
+  float: auto;
+  width: 100%;
+}
+.date-float {
+  clear: auto;
+//  float: left;
+  width: auto;
+}
+
+.container-inline-date > .form-item {
+	border:none
+}
+.container-inline-date {
+	display:inline-block;
+	 div{
+		display:inline-block;
+
+	}
+}
+.container-inline-date .date-padding {
+  padding:0;
+}
+
+//date select drop down
+.form-type-date-select .form-type-select {
+	display:inline-block;
+	 div{
+			display:inline-block;
+	}
+	label{
+		width:auto
+	}
+}
+.form-type-date-popup{
+	small, .description{ 
+		padding:0;
+	}
+	label{ 
+		width:auto
+	}
+	.form-type-textfield{
+		display:inline-block;
+	}
+}
+/*
+.form-type-date-popup .form-type-textfield{
+	background:green;
+	width:40%;
+	display:inline-block;
+}
+*/
+/* fix the float */
+.form-type-date-popup  input.date-clear{
+	clear:none;
+	display:inline-block;
+	float:auto;
+	width:200px;
+}
+.form-type-date-select{
+}
+
+
+/* ----------------------------- drupal widgets: user contact file ------------------------------------------------ */
+.contact-form{
+  .form-type-checkbox{
+    padding-left:19%
+  }
+}
+
+/* ----------------------------- drupal widgets: views exposed forms ------------------------------------------------ */
+.views-exposed-form{
+	@extend .shade;
+	margin-bottom:10px;
+	padding-bottom:10px;	
+  label{
+		font-weight:bold;
+		padding-left:5px;
+	}
+	.form-type-textfield input{
+    width:120px;
+  }
+	.views-exposed-widget{
+		display:inline-block;
+		margin:0;
+		padding:0;
+		label{
+			width:auto;
+			vertical-align:middle;
+			font-weight:normal;
+			font-size: $basefont * 0.9;
+			line-height:$baseline * 1.6;
+		}
+		
+		input{
+			height:11px;
+		}
+		select{
+			width:140px;
+		}
+		
+	}
+
+  .views-submit-button{ 
+		float:right;
+		input{
+			height:30px;
+		}
+
+	}
+
+}
+
+.views-widget{
+	display:inline-block;
+}
+
+
+
+/* stuff */
+table.package label{
+  width:100%;
+  text-align:center
+}

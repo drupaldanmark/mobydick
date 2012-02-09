@@ -1,0 +1,87 @@
+article{
+
+	margin-bottom: 10px;		
+	padding-bottom:10px;
+	
+	//meta data for the article
+	footer{
+		margin: 5px 0;
+		vertical-align:middle;
+		font-size: $basefont * 0.8; 
+		line-height: $baseline * 0.8;
+		color: #666;
+		border-top:1px solid #eee;		
+		padding-top:2px;
+		color:#999;
+		margin-top:2px;
+		text-align:left;
+
+		a{
+			color:#999;
+		}
+
+		figure{
+			border:none;
+
+			img{
+				display:inline-block;
+				width:20px;
+				height:20px;				
+			}
+
+			figcaption{ 
+				display:inline-block; 
+				text-align:left;
+			}
+
+		}
+
+    .author{
+    
+    }
+    .date{
+    
+    }
+    .changed{
+    
+    }
+
+	}
+
+	label{
+		font-weight:bold;
+	}
+
+}
+
+.content{
+	
+	img{
+		border:10px solid #fff;
+		float:none;
+	}
+
+	ol, ul{
+		padding-left:30px;
+	}
+
+	ul li{
+		list-style: none outside;
+		border-bottom: 1px solid #ddd;
+		margin:$basefont / 2 0;
+	}
+	
+	ol li{
+		list-style: decimal;
+		margin:$basefont / 2 0;
+	}
+}
+
+.links{
+	text-align:right;
+	list-style: none outside;
+  padding:0;
+  li{
+    display:inline-block;
+  }
+}

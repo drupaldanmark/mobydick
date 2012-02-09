@@ -1,0 +1,40 @@
+.forum-overview article{
+   @extend .g4;
+   background:white;
+
+   h3{
+     padding:5px;
+   }
+   p{
+    padding:5px;
+   }
+
+  &:nth-child(odd) { color:green }
+  &:nth-child(even) { color:red }
+
+}
+
+.forum-overview article.count-0{
+  @extend .gf;
+
+};
+
+
+
+.forum-content article{
+ @extend .g3;
+}
+
+
+.forum-content{
+
+
+}
+
+
+
+.forum-status-new {
+}
+.indent {
+  margin-left: 20px;
+}

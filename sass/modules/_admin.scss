@@ -1,0 +1,45 @@
+
+
+div.admin{
+  a{
+  text-decoration: none;
+  }
+  .left {margin-left:0}
+  .right{
+    text-align:left
+  }
+}
+
+div.admin-panel{
+  padding:5px 0;
+  
+  h3{
+    font-size:$basefont * 1.2;
+    line-height:$baseline * 1.2; 
+    text-transform: uppercase;
+  }
+  .body{
+    padding:0;
+  }
+  dd{
+    font-size:$basefont * 0.9;
+    line-height:$baseline * 0.9; 
+    color:#666;
+  
+  }
+}
+
+/* node edit */
+body.page-node-edit h1{
+	font-size:30px;
+	line-height:30px;
+}
+h1 em{
+  color: #666;
+}
+
+#system-modules-uninstall label{
+  width:100%;
+  text-align:left;
+}
+

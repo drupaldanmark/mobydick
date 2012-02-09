@@ -1,0 +1,75 @@
+//includes
+@import "compass/css3";
+@import "compass/layout/grid-background";
+@import "compass/typography";
+@import "compass/typography/links/link-colors";
+
+@import "mixin";
+
+//GirlFriend 
+$grid-count     : 12;
+$column-width   : 54px;
+$gutter-width   : 31px;
+$direction      : left; //left or right
+
+//------------------------------------------------
+//typography
+//------------------------------------------------
+$basefont 	: 15px ;
+$baseline 	: 24px ;
+$fontsmall	: 11px ;
+
+// define fonts
+$helvetica		: 	"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia			: 	Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+$lucida-grande	: 	"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+$verdana			: 	Verdana, Geneva, sans-serif;
+$courier			:	"Monaco", Courier New, monospace;
+
+//basefont
+$font-base            : $helvetica;
+$font-header          : "proxima-nova", Helvetica, Arial, sans-serif;
+
+$font-alternative     : $georgia;
+$font-monospace       : $courier;
+
+//------------------------------------------------
+//colors
+//------------------------------------------------
+$grid-background-baseline-color : #ddd;
+$color_blue : #00d3f6;
+$color_orange: #cc6633;
+
+//color
+$link-color         : #0069d6;
+$link-color-hover   : darken($link-color, 30);
+$link-bgcolor-hover : lighten($link-color, 50);
+$link-color-clicked : darken($link-color, 30);
+$link-bgcolor-clicked : darken($link-color, 30);
+
+//grays
+$black  : #000;
+$gray25 : lighten($black, 25%);
+$gray50 : lighten($black, 50%);
+$gray75 : lighten($black, 75%);
+$gray90 : lighten($black, 90%);
+$white  : #fff;
+
+//------------------------------------------------
+//Forms
+//------------------------------------------------
+$form-color-label 				: $gray25;
+$form-color-label-hover 	: $gray25;
+$form-collapsible-height	:	30px;
+$form-collapsible-fontsize: $basefont * 1.2;
+$form-collapsible-link 		: $gray50;
+$form-collapsible-bg-open	: $gray90;
+$form-collapsible-bg-close:	$gray90;
+
+
+
+
+
+
+$form-label-width : grid-width(2);
+$form-radios-push : grid-width(0.25);

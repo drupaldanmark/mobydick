@@ -1,0 +1,76 @@
+name = Mobydick
+description = Theme Til Drupal Danmark
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+php = 4.2
+base theme = mothership
+
+;-------------- F E A T U R E S -------------
+features[]  = logo
+features[]  = favicon
+features[]  = name
+features[]  = slogan
+features[]  = node_user_picture
+features[]  = comment_user_picture
+features[]  = comment_user_verification
+;features[] = main_menu
+;features[] = secondary_menu
+
+;-------------- R E G I O N S -------------
+regions[header]     = Header
+regions[menu]       = Header menu
+regions[sidebar_first]  = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[content_pre]    = Content Pre
+regions[content]        = Content
+regions[content_post]   = Content Post
+
+regions[fourth_1column]  = Content 4 - 1. column
+regions[fourth_2column]  = Content 4 - 2. column
+regions[fourth_3column]  = Content 4 - 3. column
+regions[fourth_4column]  = Content 4 - 3. column
+
+regions[footer_1column]   = Footer 1. column
+regions[footer_2column]  = Footer 2. column
+regions[footer_3column]   = Footer 3. column
+regions[footer_4column]  = Footer 4. column
+regions[footer] = Footer
+
+;-- Required Regions
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[highlighted] = Highlighted
+regions[help] = Help
+
+;-------------- C S S -------------
+stylesheets[all][] = css/style.css
+stylesheets[all][] = fix.css
+stylesheets[print][] = css/print.css
+
+
+;-------------- CSS FOAD -------------
+;stylesheets[all][] = whatever....css
+;stylesheets[all][] = system.base.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = comment.css
+stylesheets[all][] = node.css
+stylesheets[all][] = user.css
+stylesheets[all][] = aggregator.css
+stylesheets[all][] = field.css
+stylesheets[all][] = menu.css
+stylesheets[all][] = profile.css
+stylesheets[all][] = search.css
+stylesheets[all][] = image.css
+stylesheets[all][] = field_ui.css
+
+;-------------- JS -------------
+scripts[] = js/script.js
+scripts[] = js/jquery.tablesorter.js
+;scripts[] = js/modernizr.custom.js
+
+;-------------- code color -------------
+;stylesheets[all][] = js/snippety.css
+;scripts[] = js/jquery.snippet.min.js
+
+

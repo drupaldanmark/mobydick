@@ -1,0 +1,102 @@
+
+/*------------------------ fieldset structure ------------------------*/
+fieldset{
+	border: none;
+	padding:0;
+	margin: 0 0 $baseline/2 0;
+}
+fieldset legend{
+	width:100%;
+	padding:0;
+	margin:0 ;
+}
+.fieldset-wrapper{
+	@extend .cf;
+  border: 1px solid;
+	border-top :none;
+	margin-top:0px;
+	padding: $baseline/2 10px;
+}
+.fieldset-legend,
+.fieldset-legend a{
+	display:block;
+	font-weight:bold;
+}
+.collapsible {
+  border:none;
+	margin-bottom: 5px;
+}
+
+/*------------------------ fieldset skin ------------------------*/
+fieldset{
+  @include border-radius(2px);
+	@include box-shadow(0px 0px 5px 0px rgba(0, 0, 0, 0.1));
+	background:#fdfdfd;
+}
+fieldset fieldset{background:white}
+fieldset .fieldset-legend{
+  border: 1px solid;
+	border-bottom: none;
+  @include border-radius(2px 2px 0 0);
+}
+.collapsible .fieldset-legend{
+  border-bottom:1px solid;
+}
+fieldset .fieldset-wrapper{
+ 	@include border-radius(0 0 2px 2px);
+}
+
+//border colors
+.collapsible .fieldset-legend, 
+fieldset .fieldset-legend, 
+fieldset .fieldset-wrapper{
+	border-color:#fff;
+}
+.collapsible .fieldset-legend{
+	border-bottom-color:#fff;
+}
+
+//height of header
+form fieldset .fieldset-legend, 
+.collapsible .fieldset-legend, 
+.collapsible .fieldset-legend  a, 
+.js .collapsible.collapsed,.collapsible.collapsed .fieldset-legend > a{
+	font-size		: $basefont	* 0.9;
+  height			:	$form-collapsible-height;
+	line-height : $form-collapsible-height;
+  text-decoration: none;
+	@include text-shadow(1px 0px 2px #fff);
+}
+form fieldset .fieldset-legend, 
+.collapsible .fieldset-legend, 
+.collapsible .fieldset-legend  a{
+	background: #eee;	
+	color 		:	#444;
+	text-transform: uppercase;
+	border-bottom:1px solid #E6E6E6;
+}
+.collapsible.collapsed .fieldset-legend, 
+.collapsible.collapsed .fieldset-legend  a{
+	background: #eee;	
+}
+.collapsible.collapsed .fieldset-legend a:hover, 
+.collapsible .fieldset-legend a:hover{
+	background-color:#ddd;
+	color:#666;
+}
+
+.fieldset-description{
+	color:$gray75;
+	font-size: $basefont * 0.9;
+}
+
+.ie7 .collapsible .fieldset-legend {
+  *margin-left:-7px; /* ie7 */
+  *padding: 0 0 5px 0; /* ie7 */
+  *line-height: 1.5; /* ie7 / */
+}
+
+// icon
+.fieldset-legend{	text-indent: 20px;}
+.collapsible .fieldset-legend a{ background: url(../images/asc.gif) no-repeat center left; }
+.collapsible.collapsed .fieldset-legend a{ background: url(../images/desc.gif) no-repeat center left; }

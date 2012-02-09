@@ -1,0 +1,36 @@
+@import "_base";
+.messages,
+.sidebar,
+.tabs,
+.breadcrumb,
+header.top{
+  display:none;
+}
+
+
+body{
+  background:#fff;
+  color:#000;
+  font-size:12pt;
+  line-height:18pt;
+}
+
+h1{
+  font-family: "museo-sans",sans-serif;
+  font-weight: 700;
+  color:#000;
+  font-size:40pt; line-height:50pt;
+
+}
+
+
+.page{
+  @extend .g12;
+  overflow:hidden;
+}
+
+
+a{
+  @include link-colors(#129ac2, #ccc, #567cb0, #567cb0, #ccc);
+  text-decoration:underline!important;
+}
