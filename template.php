@@ -2,7 +2,7 @@
 /*
 add classes to forms for the tooltip love
 */
-function danemark_form_alter(&$form, &$form_state, $form_id) {
+function mobydick_form_alter(&$form, &$form_state, $form_id) {
 //  print $form_id;
   if( $form_id == "user_login"){
     $form['#attributes']['class'] = "tooltip";
@@ -14,8 +14,4 @@ function danemark_form_alter(&$form, &$form_state, $form_id) {
   //  $form['#attributes']['class'] = "tooltip";
   }
 }
-
-
-
-
 

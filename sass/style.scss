@@ -3,7 +3,6 @@
 project:  Drupal Danmark theme
 Author:   mortendk
 _______________________________________________________________________________________________ */
-
 @import "base";
 @import "grid/girlfriend"; //the grid is generated at the bottom of this page
 $pagewidth : pagewidth($grid-count, $column-width, $gutter-width);
@@ -11,7 +10,6 @@ $pagewidth : pagewidth($grid-count, $column-width, $gutter-width);
 /* -------------------------------------------  * * * ------------------------------------------------
 1. Background
 ------------------------------------------------------------------------------------------------- */
-//pattern: http://ptrn.it/yCbBWe
 body{
 	background-color:#f6f6f6;
 }
@@ -29,10 +27,9 @@ body.test .page{
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 
 h1,h2, h3, h4, h5, h6{
-	font-family: "museo-sans-rounded", $font-header;
-	font-style: normal;
-	font-weight: 300;
+	font-family: $font-header; //"museo-sans-rounded",
 	margin:0;
+	font-weight: normal;
 }
 a{
 	color: #129ac2;
@@ -44,6 +41,8 @@ a{
 h1{
 	color: #222;
 	padding-bottom:10px;
+	font-weight: 600;
+
 }
 h2 a{
 	color: #222;
@@ -119,15 +118,12 @@ header[role="banner"]{
 		@extend .g8;
 		padding-top: 10px;
 		height:35px;
-		overflow:hidden;
 
 		.block{
 			float:right;
 		}
 
 	}
-
-
 }
 
 	/* --------------------- Layout: main ----------------------------------------------- */
@@ -143,7 +139,14 @@ div[role="main"]{
 	@extend .g9;
 	@extend .gf;
 	background:rgba(250,250,250,0.5);
+	border-bottom:1px solid #eee;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
 
+.sidebar{
+	@extend .g3;
+	color:#999;
 }
 //for use with context
 body.front div[role="main"]{
@@ -154,7 +157,7 @@ body.onecolumn div[role="main"]{
 }
 
 
-
+/*
 
 body.two-sidebars div[role="main"]{
 	@extend .g6;
@@ -176,6 +179,7 @@ body.one-sidebar.sidebar-second div[role="main"]{
 	@extend .g3;
 	color:#999;
 }
+*/
 
 div.bottom{
 	margin-left:-20px;
@@ -224,7 +228,6 @@ footer[role="contentinfo"]{
 	aside{
 		@extend .gfull;
 		text-align:center;
-background:pink;
 	}
 
 
@@ -314,28 +317,46 @@ header[role="banner"]{
 }
 
 	/* --------------------- Elements Default: Main ------------------------------------ */
+div[role="main"]{
+	font-size:18px;
+	line-height:24px;
+}
 
+	/* --------------------- Elements Default: bottom ------------------------------------ */
 	.bottom{
 		font-size:13px;
 		line-height:18px;
 		color:#666;
 
 		.title{
-			background: transparent url(../images/animal-penguin.png) no-repeat center left;
+			color:#009ec3;
+			background: transparent url(../images/icon/gray.png) no-repeat center left;
 			padding-left:20px;
-			margin-left:10px;
+			margin-bottom:10px;
 		}
 
-		& .block-aggregator .title{
-			background-image: url(../images/animal-penguin.png);
+		& .block-comment .title{
+			background-image: url(../images/icon/gray-comment.png);
+		}
+		& .icon-calendar .title{
+			background-image: url(../images/icon/gray-calendar.png);
+		}
+		& .icon-nyheder .title{
+			background-image: url(../images/icon/gray-news.png);
+		}
+		& .icon-showcase .title{
+			background-image: url(../images/icon/gray-shop.png);
 		}
 
 		h3{
 			font-family:$georgia;
 			font-size:15px;
-			line-height:22px;
+			line-height:20px;
 			a{
 				color:#333;
+				&:hover{
+					color:#009ec3;
+				}
 			}
 		}
 
@@ -348,14 +369,22 @@ header[role="banner"]{
 
 		}
 		time{
-		font-family:$georgia;
+			font-family:$georgia;
 		}
 		ol,ul{
 			padding:0;
 		}
 
 		li{
-			padding:2px 0;
+			padding:10px 0;
+			margin:10px 0;
+			border-bottom:1px solid #ddd
+		}
+		li:first-child{
+			padding-top:0;
+			margin-top: 0;
+
+
 		}
 	}
 
@@ -386,6 +415,46 @@ header[role="banner"]{
 			padding-left:0;
 		}
 	}
+
+	h3{
+		font-family:$georgia;
+		font-size:15px;
+		line-height:20px;
+		a{
+			color:#333;
+			&:hover{
+				color:#009ec3;
+			}
+		}
+	}
+
+	img{
+
+	}
+	p, article{
+		margin:0;
+		padding:0;
+
+	}
+	time{
+		font-family:$georgia;
+	}
+	ol,ul{
+		padding:0;
+	}
+
+	li{
+		padding:10px 0;
+		margin:10px 0;
+		border-bottom:1px solid #ddd
+	}
+	li:first-child{
+		padding-top:0;
+		margin-top: 0;
+
+
+	}
+
 
 }
 
@@ -427,32 +496,44 @@ footer[role="contentinfo"]{
 /* -------------------------------------------  * * * -------------------------------------------
 Effects
 ------------------------------------------------------------------------------------------------- */
-@import "effect/tooltip";
 
-.half li{
-	width:50%
-}
-.third li{
-	width:33%
-}
-.quart li{
-	width:25%
-}
+@import "slides";
+//@import "effect/tooltip";
 
-
+//adds a shade to the images
 .shadow{
 
-	li{
-		position:relative;
-		padding:10px 0;
-		display:inline-block;
-	}
 	img{
 		border:5px solid #fff;
 		margin-left:2px;
 		z-index:1;
 		position:relative;
+		@include box-shadow(0px 0px 2px 0px rgba(0, 0, 0, 0.5));
+		//float:left;
+		//margin:0 20px 20px 0;
+	}
+}
+//shadow_title bruges til teaser billeder på showcases
 
+.shadow_title{
+
+	li{
+		position:relative;
+		padding:2px 20px 2px 0;
+		display:inline-block;
+	}
+
+	.bottom & li{
+		padding:2px 0px;
+		margin:2px 0;
+		border:none;
+	}
+
+	img{
+		border:5px solid #fff;
+		margin-left:2px;
+		z-index:1;
+		position:relative;
 		@include box-shadow(0px 0px 2px 0px rgba(0, 0, 0, 0.5));
 	}
 	a:hover img{
@@ -469,13 +550,38 @@ Effects
 		z-index:100;
 		padding:0 5px;
 		margin:0 6px;
-
 		background: rgba(250, 250, 250, 0.8);
+
 		color:#222;
+		font-weight:600;
 	}
 	h4 a {
 		color:#222;
 	}
+}
+
+
+.half li{
+	width:50%;
+	float:left;
+
+}
+.third li{
+	width:33%
+}
+.quart li{
+	width:25%
+}
+
+
+.thirds{
+	li{
+		@extend .g3;
+	}
+	li:first-child{
+		@extend .gf;
+	}
+
 }
 
 /* -------------------------------------------  * * * -------------------------------------------
@@ -498,4 +604,39 @@ GRID
 Here be dragons ...
 ------------------------------------------------------------------------------------------------- */
 //@import "bourbon/addons/button";
+
+
+
+@mixin cupid-green {
+  @include linear-gradient(color-stops(#7fbf4d, #63a62f), top);
+  border: 1px solid #63a62f;
+  border-bottom: 1px solid #5b992b;
+  @include border-radius(3px);
+  @include box-shadow(inset 0 1px 0 0 #96ca6d);
+  color: #fff;
+  font: bold 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 7px 10px 8px 10px;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 150px;
+
+  &:hover {
+    @include linear-gradient(color-stops(#76b347, #5e9e2e), top);
+    @include box-shadow(inset 0 1px 0 0 #8dbf67);
+    cursor: pointer;
+    color:#bbfb98;
+  }
+
+  &:active {
+    border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    @include box-shadow(inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee);
+  }
+}
+
+.cupid-green {
+  @include cupid-green;
+  font: bold 20px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
 

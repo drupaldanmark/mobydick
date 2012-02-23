@@ -1,6 +1,6 @@
 /*
 label
-input 
+input
 buttons
 password
 textarea
@@ -17,23 +17,24 @@ form {
 
 }
 
-/* ----------------------------- Label  ------------------------------------------------ */	
+/* ----------------------------- Label  ------------------------------------------------ */
 label{
 	font-weight: bold;
 }
 form  label{
 	font-size: $basefont ;
-	line-height: $baseline;	
+	line-height: $baseline;
 	color: $form-color-label;
 	padding-right: 10px;
-  height: $baseline;	
+  height: $baseline;
 	display:inline-block;
+	text-transform:uppercase;
 }
 .ie7 form label{
 	float:left;
 }
 
-/* ----------------------------- input  ------------------------------------------------ */	
+/* ----------------------------- input  ------------------------------------------------ */
 input,textarea,select {
   border: 1px solid $gray75;
   background-color: white;
@@ -47,16 +48,16 @@ input{
   height: $baseline * 1;
   line-height: $baseline * 1;
 	width:80%;
-	display:inline-block;	
+	display:inline-block;
 }
 
-/* ----------------------------- placeholder  ------------------------------------------------ */	
-:-moz-placeholder { 
-	color: #ccc; 
+/* ----------------------------- placeholder  ------------------------------------------------ */
+:-moz-placeholder {
+	color: #ccc;
 	font-weight:bold
 }
-::-webkit-input-placeholder { 
-	color: #ccc; 
+::-webkit-input-placeholder {
+	color: #ccc;
 	font-weight:bold
 }
 
@@ -80,7 +81,7 @@ input[type=file] {
   line-height: initial;
   padding: initial;
   vertical-align: middle;
-  height: $baseline * 1.5; 
+  height: $baseline * 1.5;
 	width: auto;
   *height: auto;
   *margin-top: 4px;
@@ -103,7 +104,7 @@ input[type="search"] {
   -webkit-appearance: textfield;
 //	width:30%;
 }
-input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
 	display: none;
 }
@@ -115,7 +116,7 @@ select{
   line-height: $baseline * 1.2;
 	border:1px solid $gray75;
 	background:white;
-	display: inline-block;	
+	display: inline-block;
 	border-radius: 3px;
 	padding:0;
 }
@@ -159,42 +160,42 @@ input[type=button],input[type=reset],input[type=submit] {
   color: #444;
 
 	background:#efefef;
-  @include border-radius(3px);	
+  @include border-radius(3px);
   border: 1px solid #ccc;
-	@include background-image(linear-gradient(#fff, #ddd)); 
+	@include background-image(linear-gradient(#fff, #ddd));
 	@include box-shadow(inset 0px 2px 1px rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05));
 
 	@include transition(border linear .25s);
 
 	&:hover{
 		border: 1px solid #c6c6c6;
-		@include background-image(linear-gradient(#efefef, #ededed)); 
-	
+		@include background-image(linear-gradient(#efefef, #ededed));
+
 	}
 
 
 	&#edit-submit{
   //  background-color: #0064CD;
-//		@include background-image(linear-gradient(#049CDB, #0064CD)); 			
+//		@include background-image(linear-gradient(#049CDB, #0064CD));
     color: #444;
 		font-weight:bold;
  //   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	}	
+	}
 	&#edit-delete{
 		color:#900;
 	}
 }
 
-input[type=submit] { 
+input[type=submit] {
 	&:hover{
 //		@include box-shadow(inset 0px 2px 1px rgba(255,255,255,.5), 0 0px 5px rgba(82, 168, 236,.5));
 //		border-color: rgba(82, 168, 236, 0.5);
-	}	
+	}
 }
-input[type=reset] { 
+input[type=reset] {
 
 }
-input[type=button] { 
+input[type=button] {
 
 }
 
@@ -207,7 +208,7 @@ input[type=button] {
 }
 
 /* ----------------------------- 	field description  ------------------------------------------------ */
-form .description, 
+form .description,
 form small{
   display:block;
 	color:$gray50;
@@ -215,7 +216,7 @@ form small{
 	line-height: $baseline * 0.8;
 }
 
-#user-admin-permissions .description, 
+#user-admin-permissions .description,
 #user-admin-permissions small{
 	padding-left:0
 }
@@ -225,7 +226,7 @@ form small{
 /* labels */
 form label:hover{
 	color: $form-color-label-hover;
-	cursor: pointer; 
+	cursor: pointer;
 }
 /* input */
 input, textarea {
@@ -241,7 +242,7 @@ input, textarea {
 
 input, textarea, select{
 	&:hover{
-		background:#F7F7F7;	
+		background:#F7F7F7;
 		border: 1px solid;
 		border-color:#52a8ec;
 		border-color: rgba(82, 168, 236, 0.8);
@@ -271,24 +272,24 @@ input, textarea, select{
 }
 
 input[type=password]{
-	&::-webkit-input-placeholder { 
+	&::-webkit-input-placeholder {
 		font-weight:bold
 	}
-	&:-moz-placeholder { 
+	&:-moz-placeholder {
 		font-weight:bold
 	}
 	&:hover{
 
 	}
 	&:focus{
-	
-	}
-	&:invalid { 
 
 	}
-}	
+	&:invalid {
+
+	}
+}
 input[type=radio]:checked  ~ label,
-input[type=checkbox]:checked  ~ label {	
+input[type=checkbox]:checked  ~ label {
 	background:$gray90;
   @include border-radius(3px);
 }
@@ -297,15 +298,15 @@ input[type=radio] ~ label:hover,
 input[type=checkbox] ~ label:hover{
 	background:#efefef;
 }
-	
+
 .required:after,
-.form-field-required:after{ 
+.form-field-required:after{
 	color: #900;
-	content:" * " 
+	content:" * "
 }
 //wrapper around the input & label
 .form-required{
-	background:#ededed;
+//	background:#ededed;
 }
 
 
@@ -317,15 +318,15 @@ input[type=checkbox] ~ label:hover{
 .form-wrapper{
 	padding:5px 0;
 	margin:5px 0;
-	border-bottom:1px solid pink;
+	border-bottom:1px dashed gray;
 }
 
 /*
 form{
 	.field-type-text-long, .field-widget-text-textarea,
 	.field-type-list-text, .field-widget-options-select, .field-widget-options-buttons,
-	.field-type-list-integer, 
-	.field-type-list-text, 
+	.field-type-list-integer,
+	.field-type-list-text,
 	.field-type-list-boolean,
 	.field-type-text, .field-widget-text-textfield,
 	.field-type-text-with-summary,
@@ -334,15 +335,15 @@ form{
 	.field-type-date, .field-type-datetime ,
 	.field-type-email,
 	.field-type-file,
-	.field-type-number-decimal, .field-type-number-float, .field-type-number-integer , 
-	.field-type-link-field, .field-widget-link-field, 
+	.field-type-number-decimal, .field-type-number-float, .field-type-number-integer ,
+	.field-type-link-field, .field-widget-link-field,
 	.field-type-node-reference,
-	.field-type-user-reference 
+	.field-type-user-reference
 	.form-type-textarea,
 	.form-type-password,
 	.form-type-textfield,
 	.form-type-select{
-	 // padding:5px 0;	
+	 // padding:5px 0;
 	//	margin:5px 0;
 	}
 
@@ -355,7 +356,7 @@ form .form-item{
 
 //split base form elementer
 .form-type-urlfield,
-.form-type-textfield, 
+.form-type-textfield,
 //.form-type-checkbox,
 //.form-type-radio,
 //.form-type-link-field,
@@ -366,7 +367,7 @@ form .form-item{
 .form-type-password,
 .form-type-managed-file,
 .form-type-image {
-	
+
 }
 */
 
@@ -382,13 +383,13 @@ form .form-item{
 	padding:2px 0;
 	margin:2px 0;
 	&:hover{
-		background: #fff;
+	//	background: #fff;
 	}
-	
+
 	label{
 		width:120px;
 		text-align:right;
-		background:#efefef;
+		//background:#efefef;
 	  @include border-radius(3px 0 0 3px);
 	}
 	small{
@@ -415,7 +416,7 @@ form .form-type-checkboxes{
 	@extend .shade;
 	 padding: $baseline / 2  0;
 	label{
-		vertical-align:top;		
+		vertical-align:top;
 	}
 	.form-checkboxes{
 		display:inline-block;
@@ -461,7 +462,7 @@ form .form-type-radio{
 	small, .description{
 		padding-left:14px;
 	}
-	
+
 }
 
 form .form-type-textfield{
@@ -513,13 +514,13 @@ form .form-type-managed-file{
 	small, .description{
 		padding-left:19%;
 	}
-	
+
 }
 form .field-type-datetime,
 form .form-type-date{
 	@extend .shade;
 	margin:5px 0;
-	padding:5px 0;	
+	padding:5px 0;
 }
 form .field-type-email {
 
@@ -548,7 +549,7 @@ form .form-type-numberfield{
 	cursor: copy;
 }
 //firefox fun...
-.image-widget-data input[type=file] , x:-moz-any-link  { 
+.image-widget-data input[type=file] , x:-moz-any-link  {
 //	height:20px;
 }
 .image-preview{
@@ -571,7 +572,7 @@ form .form-type-numberfield{
 	input[type=submit]{
 		width:auto;
 	}
-	small, .description{ 
+	small, .description{
 		padding-left:32%
 	}
 	.file{
@@ -582,7 +583,7 @@ form .form-type-numberfield{
 	}
 }
 
-.image-widget .form-managed-file{ 
+.image-widget .form-managed-file{
 
 }
 
@@ -592,7 +593,7 @@ form .form-type-numberfield{
 /* ----------------------------- drupal form multiples ------------------------------------------------ */
 form .form-item-multiple{
 	border:1px solid $gray90;
-	padding:  $baseline / 2 0 
+	padding:  $baseline / 2 0
 }
 form .form-item-multiple div.form-item{
    @include box-shadow(0px 0px 0px 0px rgba(219, 219, 219, 1),0px 0px 0px 0px rgba(255, 255, 255, 1));
@@ -603,14 +604,14 @@ form .field-multiple-table fieldset{
 form .form-item-multiple fieldset .form-type-checkbox{
 	padding:0;
 	margin :0;
-	margin:0 auto;	
+	margin:0 auto;
 }
 
 /* ----------------------------- drupal form dragables table ------------------------------------------ */
-@import "form-draggable"; 
+@import "form-draggable";
 
 /* ----------------------------- Fieldset ------------------------------------------------ */
-@import "form-fieldset"; 
+@import "form-fieldset";
 
 /* ----------------------------- drupal widgets ------------------------------------------------ */
 
@@ -638,8 +639,8 @@ form .vertical-tabs{
   overflow: hidden;
   position: absolute;
   z-index: 100;
-	@include box-shadow(0px 0px 5px 0px rgba(120, 120, 120, 0.7) );	
-  @include border-radius(3px);	
+	@include box-shadow(0px 0px 5px 0px rgba(120, 120, 120, 0.7) );
+  @include border-radius(3px);
 }
 #autocomplete ul {
   list-style: none;
@@ -806,10 +807,10 @@ form .filter-guidelines{float:left; display: none}
 	}
 }
 .form-type-date-popup{
-	small, .description{ 
+	small, .description{
 		padding:0;
 	}
-	label{ 
+	label{
 		width:auto
 	}
 	.form-type-textfield{
@@ -845,7 +846,7 @@ form .filter-guidelines{float:left; display: none}
 .views-exposed-form{
 	@extend .shade;
 	margin-bottom:10px;
-	padding-bottom:10px;	
+	padding-bottom:10px;
   label{
 		font-weight:bold;
 		padding-left:5px;
@@ -864,17 +865,17 @@ form .filter-guidelines{float:left; display: none}
 			font-size: $basefont * 0.9;
 			line-height:$baseline * 1.6;
 		}
-		
+
 		input{
 			height:11px;
 		}
 		select{
 			width:140px;
 		}
-		
+
 	}
 
-  .views-submit-button{ 
+  .views-submit-button{
 		float:right;
 		input{
 			height:30px;

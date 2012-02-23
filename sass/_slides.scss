@@ -1,0 +1,91 @@
+.slides{
+  @include box-shadow(rgb(142,172,178) 0px 0px 8px);
+  background:#fff;
+  border:10px solid #fff;
+  width:620px;
+}
+
+.slides_container {
+  width:620px;
+  height:280px;
+  overflow:hidden;
+	div {
+	  width:620px;
+	  height:280px;
+	  display:block;
+	}
+}
+
+
+//controls
+.slides{
+  h3{
+    position:absolute;
+    z-index:101;
+    bottom:20px;
+    left:0px;
+    min-width:300px;
+    background-color:rgba(0,0,0, .9);
+    text-align:right;
+    font-family: "museo-sans-rounded", $font-header;
+    font-style: normal;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size:30px;
+    padding:5px;
+    a{color:#fff;}
+  }
+
+
+  .pagination {
+    position:absolute;
+    z-index:101;
+    top:20px;
+    left:50%;
+    width:200px;
+    li {
+      float:left;
+      margin:0 2px;
+      list-style:none;
+    }
+    li a {
+      display:block;
+      width:12px;
+      @include border-radius(12px, 12px);
+      padding-top:12px;
+      height:0;
+      overflow:hidden;
+      background-color:gray;
+      opacity:0.8;
+    }
+    li.current a {
+      background-color:white;
+    }
+  }
+
+}
+
+
+
+/*
+.slides .next, .slides .prev {
+  position:absolute;
+  top:107px;
+  left:0px;
+  width:24px;
+  height:43px;
+  display:block;
+  z-index:101;
+}
+
+.slides .next {
+  left:585px;
+}
+*/
+
+.slides_container li{
+
+
+}
+
+

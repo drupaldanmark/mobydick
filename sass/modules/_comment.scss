@@ -14,7 +14,7 @@
 			background-color:#eee;
 			color:#6F9AB2;
 		}
-		
+
 		mark{
 			background: url('../images/pictos/89.png') no-repeat scroll top left;
 			padding-left:20px;
@@ -31,7 +31,7 @@
 			text-indent: -999em;
 			display:inline-block;
 			float:right;
-			
+
 		}
 
 		.reply{
@@ -45,7 +45,7 @@
 			background-color:#ddd;
 			border:1px dotted #bbb;
 			}
-		
+
 		}
 
 		footer{
@@ -55,23 +55,23 @@
 			margin-top:2px;
 			text-align:left;
 
-		}	
-	
+		}
+
 		.content{
 			padding-left: 24px;
 
 			a{
 			//	background-color:#eee;
 			}
-			
+
 		}
-	
+
 		.links{
 
 			float :right;
 			font-size:$basefont * 0.8;
 		}
-		
+
 	}
 
 	form{
@@ -97,5 +97,15 @@
 
 }
 .new{
+
+}
+
+.comment-form{
+	padding-top:10px;
+
+	label{
+		width:120px;
+		text-align:right;
+	}
 
 }

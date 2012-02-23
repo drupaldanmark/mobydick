@@ -31,12 +31,9 @@
 </header>
 
 <div class="page cf">
-
-  <?php // print $breadcrumb; ?>
-
-  <?php if ($tabs): ?>
-    <nav class="tabs"><?php print render($tabs); ?></nav>
-  <?php endif; ?>
+  <aside class=path">
+    <?php print $breadcrumb; ?>
+  </aside>
 
   <div role="main">
 
@@ -67,14 +64,11 @@
   </div><!--/main-->
 
 
-    <div class="sidebar-two g3">
-      <?php print render($page['sidebar_first']); ?>
+  <div class="sidebar">
+    <?php print render($page['sidebar_first']); ?>
 
-      <?php print render($page['sidebar_second']); ?>
-    </div>
-
-
-
+    <?php print render($page['sidebar_second']); ?>
+  </div>
 
 
 </div><!--/page-->
@@ -94,7 +88,9 @@
       <?php print render($page['footer']); ?>
     </aside>
     <?php } ?>
-
+  <?php if ($tabs): ?>
+    <nav class="tabs"><?php print render($tabs); ?></nav>
+  <?php endif; ?>
 	</div>
 
 </footer>

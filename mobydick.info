@@ -43,6 +43,8 @@ regions[page_bottom] = Page Bottom
 regions[highlighted] = Highlighted
 regions[help] = Help
 
+
+
 ;-------------- C S S -------------
 stylesheets[all][] = css/style.css
 stylesheets[all][] = fix.css
@@ -67,6 +69,10 @@ stylesheets[all][] = field_ui.css
 ;-------------- JS -------------
 scripts[] = js/script.js
 scripts[] = js/jquery.tablesorter.js
+
+scripts[] = js/slides.min.jquery.js
+scripts[] = js/jquery.easing.1.3.js
+
 ;scripts[] = js/modernizr.custom.js
 
 ;-------------- code color -------------

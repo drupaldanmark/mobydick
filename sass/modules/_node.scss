@@ -1,16 +1,16 @@
 article{
 
-	margin-bottom: 10px;		
+	margin-bottom: 10px;
 	padding-bottom:10px;
-	
+
 	//meta data for the article
 	footer{
 		margin: 5px 0;
 		vertical-align:middle;
-		font-size: $basefont * 0.8; 
+		font-size: $basefont * 0.8;
 		line-height: $baseline * 0.8;
 		color: #666;
-		border-top:1px solid #eee;		
+		border-top:1px solid #eee;
 		padding-top:2px;
 		color:#999;
 		margin-top:2px;
@@ -25,25 +25,25 @@ article{
 
 			img{
 				display:inline-block;
-				width:20px;
-				height:20px;				
+				wxidth:20px;
+				height:20px;
 			}
 
-			figcaption{ 
-				display:inline-block; 
+			figcaption{
+				display:inline-block;
 				text-align:left;
 			}
 
 		}
 
     .author{
-    
+
     }
     .date{
-    
+
     }
     .changed{
-    
+
     }
 
 	}
@@ -55,24 +55,26 @@ article{
 }
 
 .content{
-	
+
 	img{
-		border:10px solid #fff;
+
 		float:none;
 	}
 
 	ol, ul{
-		padding-left:30px;
+		padding-left:10%;
+		width:70%;
 	}
 
 	ul li{
-		list-style: none outside;
-		border-bottom: 1px solid #ddd;
+		list-style: none inside;
+		border-bottom: 1px solid #ccc;
 		margin:$basefont / 2 0;
 	}
-	
+
 	ol li{
-		list-style: decimal;
+		list-style: decimal inside;
+		border-bottom: 1px dotted #ccc;
 		margin:$basefont / 2 0;
 	}
 }

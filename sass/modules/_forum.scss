@@ -9,8 +9,12 @@
     padding:5px;
    }
 
-  &:nth-child(odd) { color:green }
-  &:nth-child(even) { color:red }
+  &:nth-child(odd) {
+
+  }
+  &:nth-child(even) {
+
+  }
 
 }
 
@@ -19,7 +23,27 @@
 
 };
 
+tr.sticky td{
+  background: yellow;
+}
 
+tr.closed td{
+
+}
+
+.forum-topic-list{
+    .last-reply,
+    .replies{
+      font-size:0.8em;
+    }
+    i{
+      float:right;
+      font-style: normal;
+      font-size:0.8em;
+
+    }
+
+}
 
 .forum-content article{
  @extend .g3;
@@ -38,3 +62,4 @@
 .indent {
   margin-left: 20px;
 }
+
