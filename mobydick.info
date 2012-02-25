@@ -1,9 +1,9 @@
-name = Mobydick
-description = Theme Til Drupal Danmark
+name = Moby Dick
+description = Theme for drupaldanmark.dk
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
-php = 4.2
+php = 5.2
 base theme = mothership
 
 ;-------------- F E A T U R E S -------------
