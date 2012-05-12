@@ -47,14 +47,15 @@ hide($content['body']);
 			<?php print render($content);?>
 
       <?php print render($content['field_showcase_category']); ?>
-      <footer>
-        <figure>
-          <?php print $user_picture; ?>
-          <figcaption><?php print $name; ?></figcaption>
-        </figure>
-
-        <time datetime="<?php print date('Y-m-d', $node->created); ?>"><?php print $date; ?></time>
-      </footer>
+      <?php if ($display_submitted): ?>
+        <footer>		
+          <figure>
+            <?php print $user_picture; ?>
+            <figcaption><?php print $name; ?></figcaption>
+          </figure>
+          <time datetime="<?php print date('Y-m-d', $node->created); ?>"><?php print $date; ?></time>
+        </footer>
+      <?php endif; ?>
     </div>
 
   </div>
