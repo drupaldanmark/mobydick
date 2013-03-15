@@ -12,25 +12,24 @@ body {
 
 /* line 17, ../sass/style.scss */
 body.test .page {
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, #c9e2e8), color-stop(5%, rgba(201, 226, 232, 0))), -webkit-gradient(linear, 0% 50%, 1040 50%, color-stop(1.923%, #f2f2f2), color-stop(1.923%, #eaeaea), color-stop(7.115%, #eaeaea), color-stop(7.115%, #f2f2f2), color-stop(10.096%, #f2f2f2), color-stop(10.096%, #eaeaea), color-stop(15.288%, #eaeaea), color-stop(15.288%, #f2f2f2), color-stop(18.269%, #f2f2f2), color-stop(18.269%, #eaeaea), color-stop(23.462%, #eaeaea), color-stop(23.462%, #f2f2f2), color-stop(26.442%, #f2f2f2), color-stop(26.442%, #eaeaea), color-stop(31.635%, #eaeaea), color-stop(31.635%, #f2f2f2), color-stop(34.615%, #f2f2f2), color-stop(34.615%, #eaeaea), color-stop(39.808%, #eaeaea), color-stop(39.808%, #f2f2f2), color-stop(42.788%, #f2f2f2), color-stop(42.788%, #eaeaea), color-stop(47.981%, #eaeaea), color-stop(47.981%, #f2f2f2), color-stop(50.962%, #f2f2f2), color-stop(50.962%, #eaeaea), color-stop(56.154%, #eaeaea), color-stop(56.154%, #f2f2f2), color-stop(59.135%, #f2f2f2), color-stop(59.135%, #eaeaea), color-stop(64.327%, #eaeaea), color-stop(64.327%, #f2f2f2), color-stop(67.308%, #f2f2f2), color-stop(67.308%, #eaeaea), color-stop(72.5%, #eaeaea), color-stop(72.5%, #f2f2f2), color-stop(75.481%, #f2f2f2), color-stop(75.481%, #eaeaea), color-stop(80.673%, #eaeaea), color-stop(80.673%, #f2f2f2), color-stop(83.654%, #f2f2f2), color-stop(83.654%, #eaeaea), color-stop(88.846%, #eaeaea), color-stop(88.846%, #f2f2f2), color-stop(91.827%, #f2f2f2), color-stop(91.827%, #eaeaea), color-stop(97.019%, #eaeaea), color-stop(97.019%, #f2f2f2), color-stop(100%, #f2f2f2));
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, #c9e2e8), color-stop(5%, rgba(201, 226, 232, 0))), -webkit-gradient(linear, 0% 50%, 1040 50%, color-stop(1.92308%, #f2f2f2), color-stop(1.92308%, #eaeaea), color-stop(7.11538%, #eaeaea), color-stop(7.11538%, #f2f2f2), color-stop(10.09615%, #f2f2f2), color-stop(10.09615%, #eaeaea), color-stop(15.28846%, #eaeaea), color-stop(15.28846%, #f2f2f2), color-stop(18.26923%, #f2f2f2), color-stop(18.26923%, #eaeaea), color-stop(23.46154%, #eaeaea), color-stop(23.46154%, #f2f2f2), color-stop(26.44231%, #f2f2f2), color-stop(26.44231%, #eaeaea), color-stop(31.63462%, #eaeaea), color-stop(31.63462%, #f2f2f2), color-stop(34.61538%, #f2f2f2), color-stop(34.61538%, #eaeaea), color-stop(39.80769%, #eaeaea), color-stop(39.80769%, #f2f2f2), color-stop(42.78846%, #f2f2f2), color-stop(42.78846%, #eaeaea), color-stop(47.98077%, #eaeaea), color-stop(47.98077%, #f2f2f2), color-stop(50.96154%, #f2f2f2), color-stop(50.96154%, #eaeaea), color-stop(56.15385%, #eaeaea), color-stop(56.15385%, #f2f2f2), color-stop(59.13462%, #f2f2f2), color-stop(59.13462%, #eaeaea), color-stop(64.32692%, #eaeaea), color-stop(64.32692%, #f2f2f2), color-stop(67.30769%, #f2f2f2), color-stop(67.30769%, #eaeaea), color-stop(72.5%, #eaeaea), color-stop(72.5%, #f2f2f2), color-stop(75.48077%, #f2f2f2), color-stop(75.48077%, #eaeaea), color-stop(80.67308%, #eaeaea), color-stop(80.67308%, #f2f2f2), color-stop(83.65385%, #f2f2f2), color-stop(83.65385%, #eaeaea), color-stop(88.84615%, #eaeaea), color-stop(88.84615%, #f2f2f2), color-stop(91.82692%, #f2f2f2), color-stop(91.82692%, #eaeaea), color-stop(97.01923%, #eaeaea), color-stop(97.01923%, #f2f2f2), color-stop(100%, #f2f2f2));
   background-image: -webkit-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -webkit-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 74px, #f2f2f2 74px, #f2f2f2 105px, #eaeaea 105px, #eaeaea 159px, #f2f2f2 159px, #f2f2f2 190px, #eaeaea 190px, #eaeaea 244px, #f2f2f2 244px, #f2f2f2 275px, #eaeaea 275px, #eaeaea 329px, #f2f2f2 329px, #f2f2f2 360px, #eaeaea 360px, #eaeaea 414px, #f2f2f2 414px, #f2f2f2 445px, #eaeaea 445px, #eaeaea 499px, #f2f2f2 499px, #f2f2f2 530px, #eaeaea 530px, #eaeaea 584px, #f2f2f2 584px, #f2f2f2 615px, #eaeaea 615px, #eaeaea 669px, #f2f2f2 669px, #f2f2f2 700px, #eaeaea 700px, #eaeaea 754px, #f2f2f2 754px, #f2f2f2 785px, #eaeaea 785px, #eaeaea 839px, #f2f2f2 839px, #f2f2f2 870px, #eaeaea 870px, #eaeaea 924px, #f2f2f2 924px, #f2f2f2 955px, #eaeaea 955px, #eaeaea 1009px, #f2f2f2 1009px, #f2f2f2 1040px);
   background-image: -moz-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -moz-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 74px, #f2f2f2 74px, #f2f2f2 105px, #eaeaea 105px, #eaeaea 159px, #f2f2f2 159px, #f2f2f2 190px, #eaeaea 190px, #eaeaea 244px, #f2f2f2 244px, #f2f2f2 275px, #eaeaea 275px, #eaeaea 329px, #f2f2f2 329px, #f2f2f2 360px, #eaeaea 360px, #eaeaea 414px, #f2f2f2 414px, #f2f2f2 445px, #eaeaea 445px, #eaeaea 499px, #f2f2f2 499px, #f2f2f2 530px, #eaeaea 530px, #eaeaea 584px, #f2f2f2 584px, #f2f2f2 615px, #eaeaea 615px, #eaeaea 669px, #f2f2f2 669px, #f2f2f2 700px, #eaeaea 700px, #eaeaea 754px, #f2f2f2 754px, #f2f2f2 785px, #eaeaea 785px, #eaeaea 839px, #f2f2f2 839px, #f2f2f2 870px, #eaeaea 870px, #eaeaea 924px, #f2f2f2 924px, #f2f2f2 955px, #eaeaea 955px, #eaeaea 1009px, #f2f2f2 1009px, #f2f2f2 1040px);
   background-image: -o-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -o-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 74px, #f2f2f2 74px, #f2f2f2 105px, #eaeaea 105px, #eaeaea 159px, #f2f2f2 159px, #f2f2f2 190px, #eaeaea 190px, #eaeaea 244px, #f2f2f2 244px, #f2f2f2 275px, #eaeaea 275px, #eaeaea 329px, #f2f2f2 329px, #f2f2f2 360px, #eaeaea 360px, #eaeaea 414px, #f2f2f2 414px, #f2f2f2 445px, #eaeaea 445px, #eaeaea 499px, #f2f2f2 499px, #f2f2f2 530px, #eaeaea 530px, #eaeaea 584px, #f2f2f2 584px, #f2f2f2 615px, #eaeaea 615px, #eaeaea 669px, #f2f2f2 669px, #f2f2f2 700px, #eaeaea 700px, #eaeaea 754px, #f2f2f2 754px, #f2f2f2 785px, #eaeaea 785px, #eaeaea 839px, #f2f2f2 839px, #f2f2f2 870px, #eaeaea 870px, #eaeaea 924px, #f2f2f2 924px, #f2f2f2 955px, #eaeaea 955px, #eaeaea 1009px, #f2f2f2 1009px, #f2f2f2 1040px);
-  background-image: -ms-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -ms-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 74px, #f2f2f2 74px, #f2f2f2 105px, #eaeaea 105px, #eaeaea 159px, #f2f2f2 159px, #f2f2f2 190px, #eaeaea 190px, #eaeaea 244px, #f2f2f2 244px, #f2f2f2 275px, #eaeaea 275px, #eaeaea 329px, #f2f2f2 329px, #f2f2f2 360px, #eaeaea 360px, #eaeaea 414px, #f2f2f2 414px, #f2f2f2 445px, #eaeaea 445px, #eaeaea 499px, #f2f2f2 499px, #f2f2f2 530px, #eaeaea 530px, #eaeaea 584px, #f2f2f2 584px, #f2f2f2 615px, #eaeaea 615px, #eaeaea 669px, #f2f2f2 669px, #f2f2f2 700px, #eaeaea 700px, #eaeaea 754px, #f2f2f2 754px, #f2f2f2 785px, #eaeaea 785px, #eaeaea 839px, #f2f2f2 839px, #f2f2f2 870px, #eaeaea 870px, #eaeaea 924px, #f2f2f2 924px, #f2f2f2 955px, #eaeaea 955px, #eaeaea 1009px, #f2f2f2 1009px, #f2f2f2 1040px);
   background-image: linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 74px, #f2f2f2 74px, #f2f2f2 105px, #eaeaea 105px, #eaeaea 159px, #f2f2f2 159px, #f2f2f2 190px, #eaeaea 190px, #eaeaea 244px, #f2f2f2 244px, #f2f2f2 275px, #eaeaea 275px, #eaeaea 329px, #f2f2f2 329px, #f2f2f2 360px, #eaeaea 360px, #eaeaea 414px, #f2f2f2 414px, #f2f2f2 445px, #eaeaea 445px, #eaeaea 499px, #f2f2f2 499px, #f2f2f2 530px, #eaeaea 530px, #eaeaea 584px, #f2f2f2 584px, #f2f2f2 615px, #eaeaea 615px, #eaeaea 669px, #f2f2f2 669px, #f2f2f2 700px, #eaeaea 700px, #eaeaea 754px, #f2f2f2 754px, #f2f2f2 785px, #eaeaea 785px, #eaeaea 839px, #f2f2f2 839px, #f2f2f2 870px, #eaeaea 870px, #eaeaea 924px, #f2f2f2 924px, #f2f2f2 955px, #eaeaea 955px, #eaeaea 1009px, #f2f2f2 1009px, #f2f2f2 1040px);
-  -moz-background-size: 100% 20px, auto;
   -webkit-background-size: 100% 20px, auto;
+  -moz-background-size: 100% 20px, auto;
   -o-background-size: 100% 20px, auto;
   background-size: 100% 20px, auto;
   background-position: left top;
   /*, #ececec #f2f2f2,#ececec, #c9e2e8*/ }
 
-/* line 3, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 3, ../sass/base/_helpers.scss */
 .hidden {
   display: none;
   visibility: hidden; }
 
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 7, ../sass/base/_helpers.scss */
 .visuallyhidden, header[role="banner"] .block h2, header[role="banner"] .block .title, header[role="banner"] form .form-actions, footer[role="contentinfo"] .block h2, footer[role="contentinfo"] .block .title {
   border: 0;
   clip: rect(0 0 0 0);
@@ -41,7 +40,7 @@ body.test .page {
   position: absolute;
   width: 1px; }
 
-/* line 10, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 10, ../sass/base/_helpers.scss */
 .visuallyhidden.focusable:active, header[role="banner"] .block h2.focusable:active, header[role="banner"] .block .focusable.title:active, header[role="banner"] form .focusable.form-actions:active, footer[role="contentinfo"] .block h2.focusable:active, footer[role="contentinfo"] .block .focusable.title:active, .visuallyhidden.focusable:focus, header[role="banner"] .block h2.focusable:focus, header[role="banner"] .block .focusable.title:focus, header[role="banner"] form .focusable.form-actions:focus, footer[role="contentinfo"] .block h2.focusable:focus, footer[role="contentinfo"] .block .focusable.title:focus {
   clip: auto;
   height: auto;
@@ -50,150 +49,147 @@ body.test .page {
   position: static;
   width: auto; }
 
-/* line 13, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 13, ../sass/base/_helpers.scss */
 .invisible {
   visibility: hidden; }
 
 /* -------------------------------------------  * * * -------------------------------------------
 2. Typography & Colors
 ------------------------------------------------------------------------------------------------- */
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 1, ../sass/base/_typography.scss */
 body {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #222; }
 
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 7, ../sass/base/_typography.scss */
 h1 {
   font-size: 45px;
   line-height: 48px;
   margin-bottom: 12px; }
 
-/* line 12, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 12, ../sass/base/_typography.scss */
 h2 {
   font-size: 30px;
   line-height: 36px;
   margin: 0 0 12px 0; }
 
-/* line 17, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 17, ../sass/base/_typography.scss */
 h3 {
   font-size: 22.5px;
   line-height: 36px; }
 
-/* line 21, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 21, ../sass/base/_typography.scss */
 h4 {
   font-size: 18px;
   line-height: 24px; }
 
-/* line 25, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 25, ../sass/base/_typography.scss */
 h5, h6 {
   font-size: 15px;
   line-height: 24px; }
 
-/* line 29, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 29, ../sass/base/_typography.scss */
 p, ol, ul, dl, address {
   margin: 0 0 12px 0; }
 
-/* line 32, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 32, ../sass/base/_typography.scss */
 dl {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd; }
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd; }
 
-/* line 36, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 36, ../sass/base/_typography.scss */
 dt {
   font-weight: bold;
   color: #6F9AB2;
   margin-top: 7.5px;
   font-size: 15px; }
 
-/* line 42, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 42, ../sass/base/_typography.scss */
 dd {
   margin-left: 0px; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 46, ../sass/base/_typography.scss */
 blockquote {
   margin: 0 0 1.5em -24px;
   padding-left: 24px;
-  border-left: 1px solid #666;
+  border-left: 1px solid #666666;
   font-style: italic; }
 
-/* line 47, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 47, ../sass/base/_typography.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 48, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 48, ../sass/base/_typography.scss */
 q {
   quotes: none; }
 
-/* line 49, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 49, ../sass/base/_typography.scss */
 q:before, q:after {
   content: "";
   content: none; }
 
-/* line 51, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 51, ../sass/base/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted;
   cursor: help; }
 
-/* line 52, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 52, ../sass/base/_typography.scss */
 strong {
   font-weight: bold; }
 
-/* line 53, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 53, ../sass/base/_typography.scss */
 dfn {
   font-style: italic; }
 
-/* line 54, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 54, ../sass/base/_typography.scss */
 hr {
   display: block;
   margin: 1em 0;
   padding: 0;
   height: 1px;
   border: 0;
-  border-top: 1px solid #666; }
+  border-top: 1px solid #666666; }
 
-/* line 57, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 57, ../sass/base/_typography.scss */
 pre, code, kbd, samp {
   font-family: "Monaco", Courier New, monospace;
   line-height: 24px;
   text-shadow: 0 1px 0 rgba(250, 250, 250, 0.5);
   padding: 0px 20px;
   margin: 0px;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, #c9e2e8), color-stop(5%, rgba(201, 226, 232, 0))), -webkit-gradient(linear, 0% 50%, 840 50%, color-stop(2.381%, #f2f2f2), color-stop(2.381%, #eaeaea), color-stop(97.619%, #eaeaea), color-stop(97.619%, #f2f2f2), color-stop(100%, #f2f2f2));
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, #c9e2e8), color-stop(5%, rgba(201, 226, 232, 0))), -webkit-gradient(linear, 0% 50%, 840 50%, color-stop(2.38095%, #f2f2f2), color-stop(2.38095%, #eaeaea), color-stop(97.61905%, #eaeaea), color-stop(97.61905%, #f2f2f2), color-stop(100%, #f2f2f2));
   background-image: -webkit-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -webkit-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 820px, #f2f2f2 820px, #f2f2f2 840px);
   background-image: -moz-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -moz-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 820px, #f2f2f2 820px, #f2f2f2 840px);
   background-image: -o-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -o-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 820px, #f2f2f2 820px, #f2f2f2 840px);
-  background-image: -ms-linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), -ms-linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 820px, #f2f2f2 820px, #f2f2f2 840px);
   background-image: linear-gradient(bottom, #c9e2e8 5%, rgba(201, 226, 232, 0) 5%), linear-gradient(left, #f2f2f2 20px, #eaeaea 20px, #eaeaea 820px, #f2f2f2 820px, #f2f2f2 840px);
-  -moz-background-size: 100% 24px, auto;
   -webkit-background-size: 100% 24px, auto;
+  -moz-background-size: 100% 24px, auto;
   -o-background-size: 100% 24px, auto;
   background-size: 100% 24px, auto;
   background-position: left top;
   border: 1px solid #c9e2e8;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset 0px 0px 1px 0px white, 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0px 0px 1px 0px white, 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: inset 0px 0px 1px 0px white, 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 1px 0px white, 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0px 0px 1px 0px white, 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
   margin: 24px 30px;
   padding: 24px 30px;
   display: block; }
 
-/* line 71, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 71, ../sass/base/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-/* line 77, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_typography.scss */
+/* line 77, ../sass/base/_typography.scss */
 div.codeblock {
   padding: 0 0 0 4px;
   border: none;
@@ -270,39 +266,38 @@ h2 a {
 /* -------------------------------------------  * * * -------------------------------------------
 4. Images
 ------------------------------------------------------------------------------------------------- */
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 1, ../sass/base/_image.scss */
 img {
   max-width: 100%; }
 
-/* line 4, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 4, ../sass/base/_image.scss */
 figure {
   margin: 0;
   padding: 0;
   display: inline-block; }
 
-/* line 14, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 14, ../sass/base/_image.scss */
 figcaption {
   text-align: center;
   color: #ccc; }
 
-/* line 19, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 19, ../sass/base/_image.scss */
 .thumpnail-list {
   margin-bottom: 5px; }
-  /* line 22, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 22, ../sass/base/_image.scss */
   .thumpnail-list li {
     padding: 5px 0; }
-  /* line 32, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 32, ../sass/base/_image.scss */
   .thumpnail-list article {
     padding-bottom: 5px; }
-  /* line 36, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 36, ../sass/base/_image.scss */
   .thumpnail-list a {
     display: block;
     margin: 0 4px; }
-  /* line 40, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 40, ../sass/base/_image.scss */
   .thumpnail-list img {
-    -moz-box-shadow: 0 0 5px 0 gray;
     -webkit-box-shadow: 0 0 5px 0 gray;
-    -o-box-shadow: 0 0 5px 0 gray;
+    -moz-box-shadow: 0 0 5px 0 gray;
     box-shadow: 0 0 5px 0 gray;
     width: 132px;
     min-height: 66px;
@@ -311,11 +306,10 @@ figcaption {
     display: block;
     margin: 0 0 5px 0px;
     z-index: 1; }
-  /* line 45, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 45, ../sass/base/_image.scss */
   .thumpnail-list a img {
-    -moz-box-shadow: 0 0 5px 0 gray;
     -webkit-box-shadow: 0 0 5px 0 gray;
-    -o-box-shadow: 0 0 5px 0 gray;
+    -moz-box-shadow: 0 0 5px 0 gray;
     box-shadow: 0 0 5px 0 gray;
     width: 132px;
     min-height: 66px;
@@ -323,11 +317,10 @@ figcaption {
     border: 2px solid white;
     display: block;
     margin: 0 0 5px -4px; }
-    /* line 48, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+    /* line 48, ../sass/base/_image.scss */
     .thumpnail-list a img:hover {
-      -moz-box-shadow: 0 0 3px 0 gray;
       -webkit-box-shadow: 0 0 3px 0 gray;
-      -o-box-shadow: 0 0 3px 0 gray;
+      -moz-box-shadow: 0 0 3px 0 gray;
       box-shadow: 0 0 3px 0 gray;
       width: 132px;
       min-height: 66px;
@@ -335,7 +328,7 @@ figcaption {
       border: 2px solid white;
       display: block;
       margin: 0 0 5px -4px; }
-  /* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 55, ../sass/base/_image.scss */
   .thumpnail-list h3 a {
     color: #fff;
     font-size: 11px;
@@ -352,56 +345,54 @@ figcaption {
     z-index: 100;
     text-transform: none;
     text-align: center; }
-    /* line 73, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+    /* line 73, ../sass/base/_image.scss */
     .thumpnail-list h3 a:hover {
       text-decoration: none;
       color: #ddd; }
-  /* line 79, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 79, ../sass/base/_image.scss */
   .thumpnail-list h4 {
     text-align: center;
     text-transform: none;
     font-size: 10px;
     line-height: 11px; }
 
-/* line 87, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 87, ../sass/base/_image.scss */
 .thumpnail-list-small {
   padding: 5px 0; }
-  /* line 92, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 92, ../sass/base/_image.scss */
   .thumpnail-list-small h2 {
     margin: 10px 0; }
-  /* line 99, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 99, ../sass/base/_image.scss */
   .thumpnail-list-small ul li a {
     font-size: 13.5px;
     line-heigth: 16.8px; }
-  /* line 103, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+  /* line 103, ../sass/base/_image.scss */
   .thumpnail-list-small ul li img {
     margin: 0 0 0 1px;
     width: 50px;
-    border: 1px solid #ccc;
-    -moz-box-shadow: 0px 0px 4px 0 #444444;
+    border: 1px solid #cccccc;
     -webkit-box-shadow: 0px 0px 4px 0 #444444;
-    -o-box-shadow: 0px 0px 4px 0 #444444;
+    -moz-box-shadow: 0px 0px 4px 0 #444444;
     box-shadow: 0px 0px 4px 0 #444444; }
 
-/* line 115, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 115, ../sass/base/_image.scss */
 .boxshadow .shade, .boxshadow .thumpnail-list-small, .boxshadow .thumpnail-list-small h2, .thumpnail-list-small .boxshadow h2, .boxshadow form .form-type-checkboxes, form .boxshadow .form-type-checkboxes, .boxshadow form .field-type-datetime, form .boxshadow .field-type-datetime,
 .boxshadow form .form-type-date,
 form .boxshadow .form-type-date, .boxshadow .views-exposed-form {
-  -moz-box-shadow: 0px 1px 0px 0px #dbdbdb, 0px 2px 0px 0px white;
   -webkit-box-shadow: 0px 1px 0px 0px #dbdbdb, 0px 2px 0px 0px white;
-  -o-box-shadow: 0px 1px 0px 0px #dbdbdb, 0px 2px 0px 0px white;
+  -moz-box-shadow: 0px 1px 0px 0px #dbdbdb, 0px 2px 0px 0px white;
   box-shadow: 0px 1px 0px 0px #dbdbdb, 0px 2px 0px 0px white; }
-/* line 118, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_image.scss */
+/* line 118, ../sass/base/_image.scss */
 .no-boxshadow .shade, .no-boxshadow .thumpnail-list-small, .no-boxshadow .thumpnail-list-small h2, .thumpnail-list-small .no-boxshadow h2, .no-boxshadow form .form-type-checkboxes, form .no-boxshadow .form-type-checkboxes, .no-boxshadow form .field-type-datetime, form .no-boxshadow .field-type-datetime,
 .no-boxshadow form .form-type-date,
 form .no-boxshadow .form-type-date, .no-boxshadow .views-exposed-form {
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #dddddd; }
 
 /* -------------------------------------------  * * * -------------------------------------------
 5. Tables
 ------------------------------------------------------------------------------------------------- */
 /* 	Table elements */
-/* line 2, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 2, ../sass/base/_table.scss */
 table {
   width: 100%;
   margin-bottom: 24px;
@@ -409,74 +400,74 @@ table {
   font-size: 15px;
   border-collapse: collapse;
   background: #fff; }
-  /* line 10, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+  /* line 10, ../sass/base/_table.scss */
   table caption {
     text-transform: uppercase;
     font-weight: bold; }
 
-/* line 15, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 15, ../sass/base/_table.scss */
 th, td {
   padding: 10px;
   line-height: 24px;
   text-align: left;
   vertical-align: top; }
 
-/* line 24, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 24, ../sass/base/_table.scss */
 th {
   padding-top: 9px;
   font-weight: bold;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
   text-transform: uppercase;
   background: #efefef; }
 
-/* line 31, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 31, ../sass/base/_table.scss */
 td {
   vertical-align: top;
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #f0f0f0; }
 
-/* line 36, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 36, ../sass/base/_table.scss */
 tbody th {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dddddd;
   vertical-align: top; }
 
-/* line 41, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 41, ../sass/base/_table.scss */
 tr.odd td,
 tr:nth-child(odd) td {
   background-color: #f9f9f9; }
 
-/* line 45, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 45, ../sass/base/_table.scss */
 tr .even td,
 tr:nth-child(even) td {
   background-color: #f5f5f5; }
 
-/* line 48, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 48, ../sass/base/_table.scss */
 tr:hover td {
   background-color: #fff; }
 
-/* line 52, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 52, ../sass/base/_table.scss */
 table.sticky-header {
   background-color: #fff;
   margin-top: 0; }
 
 /* ----------------------------- Tablesort JQuery  ------------------------------------------------ */
-/* line 59, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 59, ../sass/base/_table.scss */
 .tablesort th {
   padding-right: 15px;
   color: #129AC2; }
 
-/* line 60, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 60, ../sass/base/_table.scss */
 .tablesort th:hover {
   cursor: pointer;
   background: #f9f9f9; }
 
-/* line 61, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 61, ../sass/base/_table.scss */
 .tablesort th.headerSortUp {
-  background: #f5f5f5 url(../images/asc.gif) no-repeat right 20px; }
+  background: whitesmoke url(../images/asc.gif) no-repeat right 20px; }
 
-/* line 62, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_table.scss */
+/* line 62, ../sass/base/_table.scss */
 .tablesort th.headerSortDown {
-  background: #f5f5f5 url(../images/desc.gif) no-repeat right 12px; }
+  background: whitesmoke url(../images/desc.gif) no-repeat right 12px; }
 
 /* -------------------------------------------  * * * -------------------------------------------
 6. Forms
@@ -494,11 +485,11 @@ focus
 drupal widgets
 */
 /* ----------------------------- Label  ------------------------------------------------ */
-/* line 21, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 21, ../sass/base/_form.scss */
 label {
   font-weight: bold; }
 
-/* line 24, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 24, ../sass/base/_form.scss */
 form label {
   font-size: 15px;
   line-height: 24px;
@@ -508,26 +499,25 @@ form label {
   display: inline-block;
   text-transform: uppercase; }
 
-/* line 33, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 33, ../sass/base/_form.scss */
 .ie7 form label {
   float: left; }
 
 /* ----------------------------- input  ------------------------------------------------ */
-/* line 38, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 38, ../sass/base/_form.scss */
 input, textarea, select {
   border: 1px solid #bfbfbf;
   background-color: white;
   color: #404040;
   display: inline-block;
   padding: 4px;
-  -moz-border-radius: 0 3px 3px 0;
   -webkit-border-radius: 0 3px 3px 0;
-  -o-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
-  -khtml-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 46, ../sass/base/_form.scss */
 input {
   font-size: 15px;
   height: 24px;
@@ -536,18 +526,18 @@ input {
   display: inline-block; }
 
 /* ----------------------------- placeholder  ------------------------------------------------ */
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 55, ../sass/base/_form.scss */
 :-moz-placeholder {
   color: #ccc;
   font-weight: bold; }
 
-/* line 59, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 59, ../sass/base/_form.scss */
 ::-webkit-input-placeholder {
   color: #ccc;
   font-weight: bold; }
 
 /* ----------------------------- input: radio & checkbox ------------------------------------------------ */
-/* line 65, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 65, ../sass/base/_form.scss */
 input[type=checkbox], input[type=radio] {
   cursor: pointer;
   width: auto;
@@ -561,7 +551,7 @@ input[type=checkbox], input[type=radio] {
   /* IE7 */ }
 
 /* ----------------------------- input: File upload ------------------------------------------------ */
-/* line 77, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 77, ../sass/base/_form.scss */
 input[type=file] {
   background-color: transparent;
   border: initial;
@@ -575,17 +565,17 @@ input[type=file] {
   *margin-top: 4px; }
 
 /* ----------------------------- input types ------------------------------------------------ */
-/* line 103, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 103, ../sass/base/_form.scss */
 input[type="search"] {
   -webkit-appearance: textfield; }
 
-/* line 108, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 108, ../sass/base/_form.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   display: none; }
 
 /* ----------------------------- select ------------------------------------------------ */
-/* line 113, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 113, ../sass/base/_form.scss */
 select {
   font-size: 15px;
   height: 28.8px;
@@ -596,25 +586,25 @@ select {
   border-radius: 3px;
   padding: 0; }
 
-/* line 123, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 123, ../sass/base/_form.scss */
 select[multiple] {
   height: inherit;
   background-color: white; }
 
 /* ----------------------------- textarea ------------------------------------------------ */
-/* line 129, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 129, ../sass/base/_form.scss */
 textarea {
   font-size: 15px;
   line-height: 24px;
   height: auto; }
 
-/* line 134, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 134, ../sass/base/_form.scss */
 form .resizable-textarea {
   width: 80%;
   display: inline-block; }
 
 /* ----------------------------- Disabled ------------------------------------------------ */
-/* line 145, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 145, ../sass/base/_form.scss */
 input[disabled],
 select[disabled],
 textarea[disabled],
@@ -624,13 +614,12 @@ textarea[readonly] {
   background-color: #eee;
   border-color: #ddd;
   cursor: not-allowed;
-  -moz-box-shadow: inset 0px 0px 3px 0px rgba(50, 50, 50, 0.4);
   -webkit-box-shadow: inset 0px 0px 3px 0px rgba(50, 50, 50, 0.4);
-  -o-box-shadow: inset 0px 0px 3px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: inset 0px 0px 3px 0px rgba(50, 50, 50, 0.4);
   box-shadow: inset 0px 0px 3px 0px rgba(50, 50, 50, 0.4); }
 
 /* ----------------------------- buttons ------------------------------------------------ */
-/* line 153, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 153, ../sass/base/_form.scss */
 input[type=button], input[type=reset], input[type=submit] {
   width: auto;
   height: auto;
@@ -640,54 +629,51 @@ input[type=button], input[type=reset], input[type=submit] {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   color: #444;
   background: #efefef;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
   background-image: -webkit-linear-gradient(#ffffff, #dddddd);
   background-image: -moz-linear-gradient(#ffffff, #dddddd);
   background-image: -o-linear-gradient(#ffffff, #dddddd);
-  background-image: -ms-linear-gradient(#ffffff, #dddddd);
   background-image: linear-gradient(#ffffff, #dddddd);
-  -moz-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -o-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-transition: border linear;
+  -webkit-transition-delay: 0.25s;
   -moz-transition: border linear 0.25s;
-  -webkit-transition: border linear 0.25s;
   -o-transition: border linear 0.25s;
   transition: border linear 0.25s; }
-  /* line 170, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 170, ../sass/base/_form.scss */
   input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
     border: 1px solid #c6c6c6;
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #ededed));
     background-image: -webkit-linear-gradient(#efefef, #ededed);
     background-image: -moz-linear-gradient(#efefef, #ededed);
     background-image: -o-linear-gradient(#efefef, #ededed);
-    background-image: -ms-linear-gradient(#efefef, #ededed);
     background-image: linear-gradient(#efefef, #ededed); }
-  /* line 177, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 177, ../sass/base/_form.scss */
   input[type=button]#edit-submit, input[type=reset]#edit-submit, input[type=submit]#edit-submit {
     color: #444;
     font-weight: bold; }
-  /* line 184, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 184, ../sass/base/_form.scss */
   input[type=button]#edit-delete, input[type=reset]#edit-delete, input[type=submit]#edit-delete {
     color: #900; }
 
-/* line 202, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 202, ../sass/base/_form.scss */
 .form-actions {
   text-align: right;
   padding: 0 0 20px 0; }
-  /* line 205, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 205, ../sass/base/_form.scss */
   .form-actions input {
     margin: 5px; }
 
 /* ----------------------------- 	field description  ------------------------------------------------ */
-/* line 212, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 212, ../sass/base/_form.scss */
 form .description,
 form small {
   display: block;
@@ -695,99 +681,95 @@ form small {
   font-size: 12px;
   line-height: 19.2px; }
 
-/* line 220, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 220, ../sass/base/_form.scss */
 #user-admin-permissions .description,
 #user-admin-permissions small {
   padding-left: 0; }
 
 /* ----------------------------- focus & state ------------------------------------------------ */
 /* labels */
-/* line 227, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 227, ../sass/base/_form.scss */
 form label:hover {
   color: #404040;
   cursor: pointer; }
 
 /* input */
-/* line 232, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 232, ../sass/base/_form.scss */
 input, textarea {
+  -webkit-transition: border linear, box-shadow linear;
+  -webkit-transition-delay: 0.2s, 0.2s;
   -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
   -o-transition: border linear 0.2s, box-shadow linear 0.2s;
   transition: border linear 0.2s, box-shadow linear 0.2s; }
 
-/* line 235, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 235, ../sass/base/_form.scss */
 .form-item > label:hover ~ input {
-  -moz-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
   -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
-  -o-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
   background: #eee; }
 
-/* line 239, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 239, ../sass/base/_form.scss */
 .form-item.required > label:hover ~ input {
-  -moz-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
   -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
-  -o-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2);
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.2); }
 
-/* line 244, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 244, ../sass/base/_form.scss */
 input:hover, textarea:hover, select:hover {
   background: #F7F7F7;
   border: 1px solid;
   border-color: #52a8ec;
   border-color: rgba(82, 168, 236, 0.8);
-  -moz-box-shadow: 0px 0px 2px 0px rgba(82, 168, 236, 0.9);
   -webkit-box-shadow: 0px 0px 2px 0px rgba(82, 168, 236, 0.9);
-  -o-box-shadow: 0px 0px 2px 0px rgba(82, 168, 236, 0.9);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(82, 168, 236, 0.9);
   box-shadow: 0px 0px 2px 0px rgba(82, 168, 236, 0.9); }
-/* line 251, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 251, ../sass/base/_form.scss */
 input:focus, textarea:focus, select:focus {
   outline: 0;
   border: 1px solid;
   border-color: #52a8ec;
   border-color: rgba(82, 168, 236, 0.8);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(82, 168, 236, 0.4);
   -webkit-box-shadow: 0px 0px 5px 0px rgba(82, 168, 236, 0.4);
-  -o-box-shadow: 0px 0px 5px 0px rgba(82, 168, 236, 0.4);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(82, 168, 236, 0.4);
   box-shadow: 0px 0px 5px 0px rgba(82, 168, 236, 0.4); }
 
-/* line 275, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 275, ../sass/base/_form.scss */
 input[type=password]::-webkit-input-placeholder {
   font-weight: bold; }
-/* line 278, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 278, ../sass/base/_form.scss */
 input[type=password]:-moz-placeholder {
   font-weight: bold; }
 
-/* line 292, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 292, ../sass/base/_form.scss */
 input[type=radio]:checked ~ label,
 input[type=checkbox]:checked ~ label {
   background: #e6e6e6;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px; }
 
-/* line 298, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 298, ../sass/base/_form.scss */
 input[type=radio] ~ label:hover,
 input[type=checkbox] ~ label:hover {
   background: #efefef; }
 
-/* line 303, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 303, ../sass/base/_form.scss */
 .required:after,
 .form-field-required:after {
   color: #900;
   content: " * "; }
 
 /* ----------------------------- Drupal form field wrappers ------------------------------------------------ */
-/* line 318, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 318, ../sass/base/_form.scss */
 .form-wrapper {
   padding: 5px 0;
   margin: 5px 0;
   border-bottom: 1px dashed gray; }
 
-/* line 382, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 382, ../sass/base/_form.scss */
 .form-type-textarea,
 .form-type-managed-file,
 .form-type-radios,
@@ -798,7 +780,7 @@ input[type=checkbox] ~ label:hover {
 .form-type-select {
   padding: 2px 0;
   margin: 2px 0; }
-  /* line 389, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 389, ../sass/base/_form.scss */
   .form-type-textarea label,
   .form-type-managed-file label,
   .form-type-radios label,
@@ -809,13 +791,12 @@ input[type=checkbox] ~ label:hover {
   .form-type-select label {
     width: 120px;
     text-align: right;
-    -moz-border-radius: 3px 0 0 3px;
     -webkit-border-radius: 3px 0 0 3px;
-    -o-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
     -ms-border-radius: 3px 0 0 3px;
-    -khtml-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px; }
-  /* line 395, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 395, ../sass/base/_form.scss */
   .form-type-textarea small,
   .form-type-managed-file small,
   .form-type-radios small,
@@ -826,123 +807,123 @@ input[type=checkbox] ~ label:hover {
   .form-type-select small {
     padding-left: 120px; }
 
-/* line 405, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 405, ../sass/base/_form.scss */
 .form-type-select label {
   vertical-align: top; }
-/* line 408, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 408, ../sass/base/_form.scss */
 .form-type-select small, .form-type-select .description {
   padding-left: 120px; }
 
-/* line 415, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 415, ../sass/base/_form.scss */
 form .form-type-checkboxes {
   padding: 12px 0; }
-  /* line 418, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 418, ../sass/base/_form.scss */
   form .form-type-checkboxes label {
     vertical-align: top; }
-  /* line 421, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 421, ../sass/base/_form.scss */
   form .form-type-checkboxes .form-checkboxes {
     display: inline-block; }
 
-/* line 426, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 426, ../sass/base/_form.scss */
 form .content_access-div .form-type-checkboxes > label {
   width: 100%;
   text-align: left;
   cursor: default; }
 
-/* line 431, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 431, ../sass/base/_form.scss */
 form .form-type-checkbox {
   padding: 5px 0; }
-  /* line 433, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 433, ../sass/base/_form.scss */
   form .form-type-checkbox label {
     width: auto;
     font-weight: normal;
     font-size: 15px; }
-  /* line 438, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 438, ../sass/base/_form.scss */
   form .form-type-checkbox small, form .form-type-checkbox .description {
     padding-left: 14px; }
 
-/* line 445, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 445, ../sass/base/_form.scss */
 form .form-type-radios label {
   vertical-align: top; }
-/* line 448, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 448, ../sass/base/_form.scss */
 form .form-type-radios .form-radios {
   display: inline-block;
   width: 70%; }
-  /* line 451, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 451, ../sass/base/_form.scss */
   form .form-type-radios .form-radios label {
     text-align: left; }
 
-/* line 457, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 457, ../sass/base/_form.scss */
 form .form-type-radio label {
   width: auto;
   font-weight: normal;
   font-size: 15px; }
-/* line 462, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 462, ../sass/base/_form.scss */
 form .form-type-radio small, form .form-type-radio .description {
   padding-left: 14px; }
 
-/* line 471, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 471, ../sass/base/_form.scss */
 form .form-type-textarea {
   margin: 5px 0; }
-  /* line 474, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 474, ../sass/base/_form.scss */
   form .form-type-textarea .form-textarea-wrapper {
     display: inline-block;
     width: 80%;
     vertical-align: top; }
-  /* line 479, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 479, ../sass/base/_form.scss */
   form .form-type-textarea small, form .form-type-textarea .description {
     padding-left: 19%; }
 
-/* line 485, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 485, ../sass/base/_form.scss */
 form .field-type-text-long small, form .field-type-text-long .description {
   padding-left: 19%; }
 
-/* line 492, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 492, ../sass/base/_form.scss */
 form .form-type-link-field > label {
   width: 98%;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #dddddd; }
 
-/* line 500, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 500, ../sass/base/_form.scss */
 form .field-type-taxonomy-term-reference {
   margin: 5px 0; }
-  /* line 502, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 502, ../sass/base/_form.scss */
   form .field-type-taxonomy-term-reference small, form .field-type-taxonomy-term-reference .description {
     padding-left: 19%; }
 
-/* line 507, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 507, ../sass/base/_form.scss */
 form .form-type-managed-file label {
   vertical-align: top; }
-/* line 510, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 510, ../sass/base/_form.scss */
 form .form-type-managed-file .form-managed-file {
   display: inline-block; }
-/* line 514, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 514, ../sass/base/_form.scss */
 form .form-type-managed-file small, form .form-type-managed-file .description {
   padding-left: 19%; }
 
-/* line 520, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 520, ../sass/base/_form.scss */
 form .field-type-datetime,
 form .form-type-date {
   margin: 5px 0;
   padding: 5px 0; }
 
-/* line 529, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 529, ../sass/base/_form.scss */
 form .form-type-rangefield input {
   width: 75%; }
 
-/* line 534, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 534, ../sass/base/_form.scss */
 form .form-type-numberfield input {
   width: 10%; }
 
 /* ----------------------------- upload: images ------------------------------------------------ */
-/* line 543, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 543, ../sass/base/_form.scss */
 .form-type-managed-file label {
   width: 120px; }
 
-/* line 548, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 548, ../sass/base/_form.scss */
 .image-widget-data input[type=file] {
   cursor: copy; }
 
-/* line 555, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 555, ../sass/base/_form.scss */
 .image-preview {
   width: 100px;
   height: 60px;
@@ -951,116 +932,115 @@ form .form-type-numberfield input {
   background: #eee;
   float: left; }
 
-/* line 563, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 563, ../sass/base/_form.scss */
 .image-widget-data {
   float: left;
   width: 80%; }
-  /* line 566, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 566, ../sass/base/_form.scss */
   .image-widget-data label {
     width: 20%; }
-  /* line 569, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 569, ../sass/base/_form.scss */
   .image-widget-data input {
     width: 70%; }
-  /* line 572, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 572, ../sass/base/_form.scss */
   .image-widget-data input[type=submit] {
     width: auto; }
-  /* line 575, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 575, ../sass/base/_form.scss */
   .image-widget-data small, .image-widget-data .description {
     padding-left: 32%; }
-  /* line 578, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 578, ../sass/base/_form.scss */
   .image-widget-data .file {
     display: inline-block; }
-  /* line 581, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 581, ../sass/base/_form.scss */
   .image-widget-data .file-size {
     display: inline-block; }
 
 /* ----------------------------- drupal widgets: image file ------------------------------------------------ */
 /* ----------------------------- drupal form multiples ------------------------------------------------ */
-/* line 594, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 594, ../sass/base/_form.scss */
 form .form-item-multiple {
   border: 1px solid #e6e6e6;
   padding: 12px 0; }
 
-/* line 598, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 598, ../sass/base/_form.scss */
 form .form-item-multiple div.form-item {
-  -moz-box-shadow: 0px 0px 0px 0px #dbdbdb, 0px 0px 0px 0px white;
   -webkit-box-shadow: 0px 0px 0px 0px #dbdbdb, 0px 0px 0px 0px white;
-  -o-box-shadow: 0px 0px 0px 0px #dbdbdb, 0px 0px 0px 0px white;
+  -moz-box-shadow: 0px 0px 0px 0px #dbdbdb, 0px 0px 0px 0px white;
   box-shadow: 0px 0px 0px 0px #dbdbdb, 0px 0px 0px 0px white; }
 
-/* line 601, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 601, ../sass/base/_form.scss */
 form .field-multiple-table fieldset {
   border: none; }
 
-/* line 604, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 604, ../sass/base/_form.scss */
 form .form-item-multiple fieldset .form-type-checkbox {
   padding: 0;
   margin: 0;
   margin: 0 auto; }
 
 /* ----------------------------- drupal form dragables table ------------------------------------------ */
-/* line 2, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 2, ../sass/base/_form-draggable.scss */
 form .tabledrag-toggle-weight-wrapper {
   width: 95%; }
 
-/* line 6, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 6, ../sass/base/_form-draggable.scss */
 form .tabledrag-processed,
 form .field-multiple-table {
   width: 95%;
   margin: 0 auto; }
 
-/* line 15, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 15, ../sass/base/_form-draggable.scss */
 form .tabledrag-processed th:first-child {
   display: block; }
 
-/* line 21, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 21, ../sass/base/_form-draggable.scss */
 form .tabledrag-processed th,
 form .field-multiple-table th {
   border: none;
   background: #e6e6e6; }
 
-/* line 25, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 25, ../sass/base/_form-draggable.scss */
 form .field-multiple-table th.field-label {
   padding-left: 5px; }
 
-/* line 28, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 28, ../sass/base/_form-draggable.scss */
 form .field-multiple-table td {
   border: none; }
 
-/* line 31, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 31, ../sass/base/_form-draggable.scss */
 tr.draggable td {
   vertical-align: top;
   border-bottom: 1px solid #e6e6e6; }
 
-/* line 35, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 35, ../sass/base/_form-draggable.scss */
 tr.draggable .field-multiple-drag {
   width: 30px; }
 
-/* line 38, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 38, ../sass/base/_form-draggable.scss */
 tr.draggable .file {
   display: block-inline; }
 
-/* line 41, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 41, ../sass/base/_form-draggable.scss */
 tr.draggable .file-size {
   display: block-inline; }
 
-/* line 44, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 44, ../sass/base/_form-draggable.scss */
 tr.draggable td {
   vertical-align: top; }
 
-/* line 51, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 51, ../sass/base/_form-draggable.scss */
 .draggable .form-type-link-field input {
   width: 75%; }
 
-/* line 54, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 54, ../sass/base/_form-draggable.scss */
 form .field-add-more-submit {
   margin-left: 19px; }
 
-/* line 57, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 57, ../sass/base/_form-draggable.scss */
 form th label {
   width: auto; }
 
-/* line 61, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 61, ../sass/base/_form-draggable.scss */
 .draggable a.tabledrag-handle {
   cursor: move;
   float: left;
@@ -1072,120 +1052,116 @@ form th label {
   /* LTR */
   text-decoration: none; }
 
-/* line 69, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 69, ../sass/base/_form-draggable.scss */
 a.tabledrag-handle:hover {
   text-decoration: none; }
 
-/* line 72, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 72, ../sass/base/_form-draggable.scss */
 a.tabledrag-handle .handle {
   background: url(../images/draggable.png) no-repeat 0 0;
   height: 13px;
   margin-top: 4px;
   width: 13px; }
 
-/* line 78, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 78, ../sass/base/_form-draggable.scss */
 a.tabledrag-handle-hover .handle {
   background-position: 0 -20px; }
 
-/* line 83, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 83, ../sass/base/_form-draggable.scss */
 .draggable small,
 .draggable .description {
   padding-left: 0; }
 
-/* line 87, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 87, ../sass/base/_form-draggable.scss */
 .field-ui-overview input {
   width: 70%; }
 
-/* line 90, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-draggable.scss */
+/* line 90, ../sass/base/_form-draggable.scss */
 .add-new-placeholder {
   border-bottom: 1px solid #cccccc; }
 
 /* ----------------------------- Fieldset ------------------------------------------------ */
 /*------------------------ fieldset structure ------------------------*/
-/* line 3, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 3, ../sass/base/_form-fieldset.scss */
 fieldset {
   border: none;
   padding: 0;
   margin: 0 0 12px 0; }
 
-/* line 8, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 8, ../sass/base/_form-fieldset.scss */
 fieldset legend {
   width: 100%;
   padding: 0;
   margin: 0; }
 
-/* line 13, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 13, ../sass/base/_form-fieldset.scss */
 .fieldset-wrapper {
   border: 1px solid;
   border-top: none;
   margin-top: 0px;
   padding: 12px 10px; }
 
-/* line 21, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 21, ../sass/base/_form-fieldset.scss */
 .fieldset-legend,
 .fieldset-legend a {
   display: block;
   font-weight: bold; }
 
-/* line 25, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 25, ../sass/base/_form-fieldset.scss */
 .collapsible {
   border: none;
   margin-bottom: 5px; }
 
 /*------------------------ fieldset skin ------------------------*/
-/* line 31, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 31, ../sass/base/_form-fieldset.scss */
 fieldset {
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   background: #fdfdfd; }
 
-/* line 36, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 36, ../sass/base/_form-fieldset.scss */
 fieldset fieldset {
   background: white; }
 
-/* line 37, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 37, ../sass/base/_form-fieldset.scss */
 fieldset .fieldset-legend {
   border: 1px solid;
   border-bottom: none;
-  -moz-border-radius: 2px 2px 0 0;
   -webkit-border-radius: 2px 2px 0 0;
-  -o-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
   -ms-border-radius: 2px 2px 0 0;
-  -khtml-border-radius: 2px 2px 0 0;
+  -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0; }
 
-/* line 42, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 42, ../sass/base/_form-fieldset.scss */
 .collapsible .fieldset-legend {
   border-bottom: 1px solid; }
 
-/* line 45, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 45, ../sass/base/_form-fieldset.scss */
 fieldset .fieldset-wrapper {
-  -moz-border-radius: 0 0 2px 2px;
   -webkit-border-radius: 0 0 2px 2px;
-  -o-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
   -ms-border-radius: 0 0 2px 2px;
-  -khtml-border-radius: 0 0 2px 2px;
+  -o-border-radius: 0 0 2px 2px;
   border-radius: 0 0 2px 2px; }
 
-/* line 52, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 52, ../sass/base/_form-fieldset.scss */
 .collapsible .fieldset-legend,
 fieldset .fieldset-legend,
 fieldset .fieldset-wrapper {
   border-color: #fff; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 55, ../sass/base/_form-fieldset.scss */
 .collapsible .fieldset-legend {
   border-bottom-color: #fff; }
 
-/* line 63, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 63, ../sass/base/_form-fieldset.scss */
 form fieldset .fieldset-legend,
 .collapsible .fieldset-legend,
 .collapsible .fieldset-legend a,
@@ -1196,32 +1172,32 @@ form fieldset .fieldset-legend,
   text-decoration: none;
   text-shadow: 1px 0px 2px white; }
 
-/* line 72, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 72, ../sass/base/_form-fieldset.scss */
 form fieldset .fieldset-legend,
 .collapsible .fieldset-legend,
 .collapsible .fieldset-legend a {
   background: #eee;
   color: #444;
   text-transform: uppercase;
-  border-bottom: 1px solid #E6E6E6; }
+  border-bottom: 1px solid #e6e6e6; }
 
-/* line 79, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 79, ../sass/base/_form-fieldset.scss */
 .collapsible.collapsed .fieldset-legend,
 .collapsible.collapsed .fieldset-legend a {
   background: #eee; }
 
-/* line 83, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 83, ../sass/base/_form-fieldset.scss */
 .collapsible.collapsed .fieldset-legend a:hover,
 .collapsible .fieldset-legend a:hover {
   background-color: #ddd;
   color: #666; }
 
-/* line 88, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 88, ../sass/base/_form-fieldset.scss */
 .fieldset-description {
   color: #bfbfbf;
   font-size: 13.5px; }
 
-/* line 93, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 93, ../sass/base/_form-fieldset.scss */
 .ie7 .collapsible .fieldset-legend {
   *margin-left: -7px;
   /* ie7 */
@@ -1230,60 +1206,58 @@ form fieldset .fieldset-legend,
   *line-height: 1.5;
   /* ie7 / */ }
 
-/* line 100, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 100, ../sass/base/_form-fieldset.scss */
 .fieldset-legend {
   text-indent: 20px; }
 
-/* line 101, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 101, ../sass/base/_form-fieldset.scss */
 .collapsible .fieldset-legend a {
   background: url(../images/asc.gif) no-repeat center left; }
 
-/* line 102, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form-fieldset.scss */
+/* line 102, ../sass/base/_form-fieldset.scss */
 .collapsible.collapsed .fieldset-legend a {
   background: url(../images/desc.gif) no-repeat center left; }
 
 /* ----------------------------- drupal widgets ------------------------------------------------ */
 /* ----------------------------- drupal widget: vertical taps ------------------------------------------------ */
-/* line 620, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 620, ../sass/base/_form.scss */
 form .vertical-tabs label {
   width: 80%;
   text-align: left; }
-/* line 624, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 624, ../sass/base/_form.scss */
 form .vertical-tabs input, form .vertical-tabs textarea {
   width: 90%; }
-/* line 628, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 628, ../sass/base/_form.scss */
 form .vertical-tabs input[type=submit], form .vertical-tabs input[type=checkbox], form .vertical-tabs input[type=radio] {
   width: auto; }
-/* line 631, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 631, ../sass/base/_form.scss */
 form .vertical-tabs small, form .vertical-tabs .description {
   padding-left: 0; }
 
 /* ----------------------------- Drupal widget: autocomplete  ------------------------------------------------ */
-/* line 637, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 637, ../sass/base/_form.scss */
 #autocomplete {
   border: 1px solid #e6e6e6;
   overflow: hidden;
   position: absolute;
   z-index: 100;
-  -moz-box-shadow: 0px 0px 5px 0px rgba(120, 120, 120, 0.7);
   -webkit-box-shadow: 0px 0px 5px 0px rgba(120, 120, 120, 0.7);
-  -o-box-shadow: 0px 0px 5px 0px rgba(120, 120, 120, 0.7);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(120, 120, 120, 0.7);
   box-shadow: 0px 0px 5px 0px rgba(120, 120, 120, 0.7);
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px; }
 
-/* line 645, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 645, ../sass/base/_form.scss */
 #autocomplete ul {
   list-style: none;
   list-style-image: none;
   margin: 0;
   padding: 0; }
 
-/* line 651, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 651, ../sass/base/_form.scss */
 #autocomplete li {
   background: #fff;
   color: #000;
@@ -1293,24 +1267,24 @@ form .vertical-tabs small, form .vertical-tabs .description {
   padding: 3px;
   cursor: pointer; }
 
-/* line 660, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 660, ../sass/base/_form.scss */
 #autocomplete li:hover {
   background: #e6e6e6;
   font-weight: bold; }
 
-/* line 664, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 664, ../sass/base/_form.scss */
 .field-widget-taxonomy-autocomplete input {
   font-weight: bold; }
 
 /* ----------------------------- Drupal widget autocomplete Animated throbber  ------------------------------------------------ */
-/* line 669, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 669, ../sass/base/_form.scss */
 html.js input.form-autocomplete {
   background-image: url(../images/throbber.gif);
   background-position: 100% 10px;
   /* LTR */
   background-repeat: no-repeat; }
 
-/* line 674, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 674, ../sass/base/_form.scss */
 html.js input.throbbing {
   background-position: 100% -18px;
   /* LTR */ }
@@ -1318,28 +1292,28 @@ html.js input.throbbing {
 /* ------------------------------------------------------------------------------------------------------------
 Progress bar
 ------------------------------------------------------------------------------------------------------------ */
-/* line 682, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 682, ../sass/base/_form.scss */
 .progress .bar {
   background-color: #fff;
   border: 1px solid; }
 
-/* line 686, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 686, ../sass/base/_form.scss */
 .progress .filled {
   background-color: #000;
   height: 1.5em;
   width: 5px; }
 
-/* line 691, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 691, ../sass/base/_form.scss */
 .progress .percentage {
   float: right;
   /* LTR */ }
 
 /* Throbber */
-/* line 695, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 695, ../sass/base/_form.scss */
 .ajax-progress {
   display: inline-block; }
 
-/* line 698, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 698, ../sass/base/_form.scss */
 .ajax-progress .throbber {
   background: transparent url(../../misc/throbber.gif) no-repeat 0px -18px;
   float: left;
@@ -1348,20 +1322,20 @@ Progress bar
   margin: 2px;
   width: 15px; }
 
-/* line 705, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 705, ../sass/base/_form.scss */
 .ajax-progress .message {
   padding-left: 20px; }
 
-/* line 708, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 708, ../sass/base/_form.scss */
 tr .ajax-progress .throbber {
   margin: 0 2px; }
 
-/* line 711, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 711, ../sass/base/_form.scss */
 .ajax-progress-bar {
   width: 16em; }
 
 /* ----------------------------- Drupal widget: textarea grippie  ------------------------------------------------ */
-/* line 717, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 717, ../sass/base/_form.scss */
 .form-textarea-wrapper textarea {
   display: block;
   margin: 0;
@@ -1370,27 +1344,27 @@ tr .ajax-progress .throbber {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 725, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 725, ../sass/base/_form.scss */
 .resizable-textarea .grippie {
   background: #eeeeee url(../images/grippie.png) no-repeat center 2px;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-top-width: 0;
   cursor: s-resize;
   height: 9px;
   overflow: hidden; }
 
-/* line 733, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 733, ../sass/base/_form.scss */
 .resizable-textarea .grippie {
   background: none;
   border: none; }
 
 /* ----------------------------- Drupal widget: text input Filter selector ------------------------------------------------ */
-/* line 742, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 742, ../sass/base/_form.scss */
 form .filter-wrapper {
   padding: 0;
   width: 99%; }
 
-/* line 747, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 747, ../sass/base/_form.scss */
 form .filter-wrapper label {
   width: 120px;
   text-align: right;
@@ -1399,81 +1373,80 @@ form .filter-wrapper label {
   vertical-align: medium;
   color: lightgray; }
 
-/* line 755, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 755, ../sass/base/_form.scss */
 form .filter-wrapper .fieldset-wrapper {
   border: none;
   padding: 0;
   margin: 0; }
 
-/* line 760, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 760, ../sass/base/_form.scss */
 form .filter-wrapper .form-type-select {
-  -moz-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
   -webkit-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
-  -o-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
   box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
   border: none;
   float: right; }
 
-/* line 765, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 765, ../sass/base/_form.scss */
 form .filter-help {
   float: right;
   display: none; }
 
-/* line 766, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 766, ../sass/base/_form.scss */
 form .filter-guidelines {
   float: left;
   display: none; }
 
 /* ----------------------------- drupal widgets: date ------------------------------------------------ */
-/* line 769, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 769, ../sass/base/_form.scss */
 .date-clear {
   clear: auto;
   display: block-inline;
   float: none; }
 
-/* line 774, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 774, ../sass/base/_form.scss */
 .date-no-float {
   clear: none;
   float: auto;
   width: 100%; }
 
-/* line 779, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 779, ../sass/base/_form.scss */
 .date-float {
   clear: auto;
   width: auto; }
 
-/* line 785, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 785, ../sass/base/_form.scss */
 .container-inline-date > .form-item {
   border: none; }
 
-/* line 788, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 788, ../sass/base/_form.scss */
 .container-inline-date {
   display: inline-block; }
-  /* line 790, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 790, ../sass/base/_form.scss */
   .container-inline-date div {
     display: inline-block; }
 
-/* line 795, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 795, ../sass/base/_form.scss */
 .container-inline-date .date-padding {
   padding: 0; }
 
-/* line 800, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 800, ../sass/base/_form.scss */
 .form-type-date-select .form-type-select {
   display: inline-block; }
-  /* line 802, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 802, ../sass/base/_form.scss */
   .form-type-date-select .form-type-select div {
     display: inline-block; }
-  /* line 805, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 805, ../sass/base/_form.scss */
   .form-type-date-select .form-type-select label {
     width: auto; }
 
-/* line 810, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 810, ../sass/base/_form.scss */
 .form-type-date-popup small, .form-type-date-popup .description {
   padding: 0; }
-/* line 813, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 813, ../sass/base/_form.scss */
 .form-type-date-popup label {
   width: auto; }
-/* line 816, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 816, ../sass/base/_form.scss */
 .form-type-date-popup .form-type-textfield {
   display: inline-block; }
 
@@ -1485,7 +1458,7 @@ form .filter-guidelines {
 }
 */
 /* fix the float */
-/* line 828, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 828, ../sass/base/_form.scss */
 .form-type-date-popup input.date-clear {
   clear: none;
   display: inline-block;
@@ -1493,53 +1466,53 @@ form .filter-guidelines {
   width: 200px; }
 
 /* ----------------------------- drupal widgets: user contact file ------------------------------------------------ */
-/* line 840, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 840, ../sass/base/_form.scss */
 .contact-form .form-type-checkbox {
   padding-left: 19%; }
 
 /* ----------------------------- drupal widgets: views exposed forms ------------------------------------------------ */
-/* line 846, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 846, ../sass/base/_form.scss */
 .views-exposed-form {
   margin-bottom: 10px;
   padding-bottom: 10px; }
-  /* line 850, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 850, ../sass/base/_form.scss */
   .views-exposed-form label {
     font-weight: bold;
     padding-left: 5px; }
-  /* line 854, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 854, ../sass/base/_form.scss */
   .views-exposed-form .form-type-textfield input {
     width: 120px; }
-  /* line 857, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 857, ../sass/base/_form.scss */
   .views-exposed-form .views-exposed-widget {
     display: inline-block;
     margin: 0;
     padding: 0; }
-    /* line 861, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+    /* line 861, ../sass/base/_form.scss */
     .views-exposed-form .views-exposed-widget label {
       width: auto;
       vertical-align: middle;
       font-weight: normal;
       font-size: 13.5px;
       line-height: 38.4px; }
-    /* line 869, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+    /* line 869, ../sass/base/_form.scss */
     .views-exposed-form .views-exposed-widget input {
       height: 11px; }
-    /* line 872, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+    /* line 872, ../sass/base/_form.scss */
     .views-exposed-form .views-exposed-widget select {
       width: 140px; }
-  /* line 878, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+  /* line 878, ../sass/base/_form.scss */
   .views-exposed-form .views-submit-button {
     float: right; }
-    /* line 880, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+    /* line 880, ../sass/base/_form.scss */
     .views-exposed-form .views-submit-button input {
       height: 30px; }
 
-/* line 888, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 888, ../sass/base/_form.scss */
 .views-widget {
   display: inline-block; }
 
 /* stuff */
-/* line 895, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_form.scss */
+/* line 895, ../sass/base/_form.scss */
 table.package label {
   width: 100%;
   text-align: center; }
@@ -1547,45 +1520,45 @@ table.package label {
 /* -------------------------------------------  * * * -------------------------------------------
 7. nav
 ------------------------------------------------------------------------------------------------- */
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_nav.scss */
+/* line 1, ../sass/base/_nav.scss */
 ol, ul {
   padding: 0;
   margin: 0; }
 
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_nav.scss */
+/* line 7, ../sass/base/_nav.scss */
 nav ul {
   margin: 0;
   padding: 0; }
-/* line 11, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_nav.scss */
+/* line 11, ../sass/base/_nav.scss */
 nav li {
   margin: 0;
   padding-right: 10px; }
-/* line 18, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_nav.scss */
+/* line 18, ../sass/base/_nav.scss */
 nav li:last-child {
   padding-right: 0; }
 
-/* line 25, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_nav.scss */
+/* line 25, ../sass/base/_nav.scss */
 .active,
 .active-trail > .active-trail {
   text-decoration: none;
   font-weight: bold; }
 
-/* line 32, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_nav.scss */
+/* line 32, ../sass/base/_nav.scss */
 .content ul, .book-block-menu ul {
   padding: 0 0 0 13.5px;
   margin: 0; }
 
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_list.scss */
+/* line 1, ../sass/base/_list.scss */
 ol, ul {
   padding: 0;
   margin: 0; }
 
-/* line 12, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_list.scss */
+/* line 12, ../sass/base/_list.scss */
 .content ul, .book-block-menu ul {
   padding: 0 0 0 13.5px;
   margin: 0; }
 
-/* line 19, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_list.scss */
+/* line 19, ../sass/base/_list.scss */
 li {
   list-style: none inside; }
 
@@ -1605,7 +1578,7 @@ header[role="banner"] {
   /* line 103, ../sass/style.scss */
   header[role="banner"] figure.logo {
     padding: 0;
-    margin: 20px 0  0 0; }
+    margin: 20px 0 0 0; }
   /* line 110, ../sass/style.scss */
   header[role="banner"] .header {
     height: 30px; }
@@ -1626,16 +1599,15 @@ header[role="banner"] {
   width: 989px;
   margin: 0px auto;
   padding: 10px 20px 0 20px;
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   background: #f9f9f9; }
 
 /* line 138, ../sass/style.scss */
 div[role="main"] {
   background: rgba(250, 250, 250, 0.5);
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
   margin-bottom: 20px;
   padding-bottom: 20px; }
 
@@ -1697,7 +1669,7 @@ footer[role="contentinfo"] {
   width: 100%;
   background-color: #0097be;
   min-height: 150px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dddddd;
   float: left; }
   /* line 217, ../sass/style.scss */
   footer[role="contentinfo"] > div {
@@ -1889,82 +1861,82 @@ footer[role="contentinfo"] a {
   color: #fff; }
 
 /* --------------------- Elements node   ----------------------------------*/
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+/* line 1, ../sass/modules/_node.scss */
 article {
   margin-bottom: 10px;
   padding-bottom: 10px; }
-  /* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+  /* line 7, ../sass/modules/_node.scss */
   article footer {
     margin: 5px 0;
     vertical-align: middle;
     font-size: 12px;
     line-height: 19.2px;
     color: #666;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #eeeeee;
     padding-top: 2px;
     color: #999;
     margin-top: 2px;
     text-align: left; }
-    /* line 19, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+    /* line 19, ../sass/modules/_node.scss */
     article footer a {
       color: #999; }
-    /* line 23, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+    /* line 23, ../sass/modules/_node.scss */
     article footer figure {
       border: none; }
-      /* line 26, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+      /* line 26, ../sass/modules/_node.scss */
       article footer figure img {
         display: inline-block;
         wxidth: 20px;
         height: 20px; }
-      /* line 32, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+      /* line 32, ../sass/modules/_node.scss */
       article footer figure figcaption {
         display: inline-block;
         text-align: left; }
-  /* line 51, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+  /* line 51, ../sass/modules/_node.scss */
   article label {
     font-weight: bold; }
 
-/* line 59, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+/* line 59, ../sass/modules/_node.scss */
 .content img {
   float: none; }
-/* line 64, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+/* line 64, ../sass/modules/_node.scss */
 .content ol, .content ul {
   padding-left: 10%;
   width: 70%; }
-/* line 69, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+/* line 69, ../sass/modules/_node.scss */
 .content ul li {
   list-style: none inside;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc;
   margin: 7.5px 0; }
-/* line 75, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+/* line 75, ../sass/modules/_node.scss */
 .content ol li {
   list-style: decimal inside;
-  border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted #cccccc;
   margin: 7.5px 0; }
 
-/* line 82, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+/* line 82, ../sass/modules/_node.scss */
 .links {
   text-align: right;
   list-style: none outside;
   padding: 0; }
-  /* line 86, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_node.scss */
+  /* line 86, ../sass/modules/_node.scss */
   .links li {
     display: inline-block; }
 
-/* line 4, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+/* line 4, ../sass/modules/_comment.scss */
 #comments article {
   position: relative;
   padding: 5px 0;
   margin: 5px 0;
-  border-top: 1px solid #ccc; }
-  /* line 10, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  border-top: 1px solid #cccccc; }
+  /* line 10, ../sass/modules/_comment.scss */
   #comments article a {
     color: #6F9AB2; }
-  /* line 13, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 13, ../sass/modules/_comment.scss */
   #comments article a:hover {
     background-color: #eee;
     color: #6F9AB2; }
-  /* line 18, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 18, ../sass/modules/_comment.scss */
   #comments article mark {
     background: url("../images/pictos/89.png") no-repeat scroll top left;
     padding-left: 20px;
@@ -1972,56 +1944,55 @@ article {
     margin-top: 5px;
     display: inline-block;
     float: left; }
-  /* line 28, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 28, ../sass/modules/_comment.scss */
   #comments article .permalink {
     background: url("../images/bijou/external-link.png") no-repeat scroll center left;
     padding: 0 0 0 20px;
     text-indent: -999em;
     display: inline-block;
     float: right; }
-  /* line 37, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 37, ../sass/modules/_comment.scss */
   #comments article .reply {
     background: #efefef url("../images/bijou/reply.png") no-repeat scroll 3px 10px;
-    -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
     -ms-border-radius: 2px;
-    -khtml-border-radius: 2px;
+    -o-border-radius: 2px;
     border-radius: 2px;
-    border: 1px dotted #ccc;
+    border: 1px dotted #cccccc;
     padding: 2px 7px 2px 20px;
     margin-left: 24px;
     display: inline-block; }
-    /* line 44, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+    /* line 44, ../sass/modules/_comment.scss */
     #comments article .reply:hover {
       background-color: #ddd;
-      border: 1px dotted #bbb; }
-  /* line 51, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+      border: 1px dotted #bbbbbb; }
+  /* line 51, ../sass/modules/_comment.scss */
   #comments article footer {
     color: #999;
     padding-top: 2px;
     margin-left: 24px;
     margin-top: 2px;
     text-align: left; }
-  /* line 60, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 60, ../sass/modules/_comment.scss */
   #comments article .content {
     padding-left: 24px; }
-  /* line 69, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 69, ../sass/modules/_comment.scss */
   #comments article .links {
     float: right;
     font-size: 12px; }
-/* line 77, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+/* line 77, ../sass/modules/_comment.scss */
 #comments form {
-  border-top: 1px solid #ccc; }
+  border-top: 1px solid #cccccc; }
 
-/* line 86, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+/* line 86, ../sass/modules/_comment.scss */
 .indented {
   padding-left: 20px; }
 
-/* line 103, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+/* line 103, ../sass/modules/_comment.scss */
 .comment-form {
   padding-top: 10px; }
-  /* line 106, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_comment.scss */
+  /* line 106, ../sass/modules/_comment.scss */
   .comment-form label {
     width: 120px;
     text-align: right; }
@@ -2035,24 +2006,24 @@ article {
 	Drupal elements
 ------------------------------------------------------------------------------------------------------------ */
 /* ----------------1 admin ------------------- */
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 7, ../sass/modules/_drupal.scss */
 body.admin-menu {
-  background-position: 0 21px!important; }
+  background-position: 0 21px !important; }
 
 /* 1 Messages  */
-/* line 26, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 26, ../sass/modules/_drupal.scss */
 .warning {
   background: #fef5f1;
   border-color: #f48f62;
   color: #986c58; }
-  /* line 17, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 17, ../sass/modules/_drupal.scss */
   .warning a {
     color: #986c58; }
-  /* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 20, ../sass/modules/_drupal.scss */
   .warning li {
     border-color: #986c58; }
 
-/* line 30, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 30, ../sass/modules/_drupal.scss */
 .messages {
   width: 90%;
   margin: 12px auto;
@@ -2060,76 +2031,74 @@ body.admin-menu {
   padding: 12px 20px;
   font-size: 15px;
   border: 1px dotted;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px; }
-  /* line 39, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 39, ../sass/modules/_drupal.scss */
   .messages li {
     border-bottom: 1px dashed;
     padding: 5px 0;
     width: 95%;
     list-style: none inside; }
-  /* line 45, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 45, ../sass/modules/_drupal.scss */
   .messages a {
     font-weight: bold; }
-  /* line 48, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 48, ../sass/modules/_drupal.scss */
   .messages.status {
     background: #f8fff0;
     border-color: #b1ff57;
     color: #7ba848; }
-    /* line 17, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 17, ../sass/modules/_drupal.scss */
     .messages.status a {
       color: #7ba848; }
-    /* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 20, ../sass/modules/_drupal.scss */
     .messages.status li {
       border-color: #7ba848; }
-  /* line 52, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 52, ../sass/modules/_drupal.scss */
   .messages.warning {
     background: #fffce5;
     border-color: #ffea4c;
     color: #a09645; }
-    /* line 17, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 17, ../sass/modules/_drupal.scss */
     .messages.warning a {
       color: #a09645; }
-    /* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 20, ../sass/modules/_drupal.scss */
     .messages.warning li {
       border-color: #a09645; }
-  /* line 56, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 56, ../sass/modules/_drupal.scss */
   .messages.error {
     background: #fef5f1;
     border-color: #f48f62;
     color: #986c58; }
-    /* line 17, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 17, ../sass/modules/_drupal.scss */
     .messages.error a {
       color: #986c58; }
-    /* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 20, ../sass/modules/_drupal.scss */
     .messages.error li {
       border-color: #986c58; }
 
 /* status
 .node-unpublished, .comment-unpublished
 */
-/* line 65, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 65, ../sass/modules/_drupal.scss */
 .unpublished {
   background-color: #fddfde;
   background-color: rgba(253, 223, 222, 0.7);
-  -moz-box-shadow: inset 0px 0px 1px 0px #eab8b6;
   -webkit-box-shadow: inset 0px 0px 1px 0px #eab8b6;
-  -o-box-shadow: inset 0px 0px 1px 0px #eab8b6;
+  -moz-box-shadow: inset 0px 0px 1px 0px #eab8b6;
   box-shadow: inset 0px 0px 1px 0px #eab8b6; }
 
 /* 2 Tabs */
-/* line 72, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 72, ../sass/modules/_drupal.scss */
 nav.tabs {
   padding: 0px 10px 0 0;
   margin: 5px 10px 5px 0; }
-  /* line 76, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 76, ../sass/modules/_drupal.scss */
   nav.tabs li {
     display: inline-block; }
-  /* line 79, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 79, ../sass/modules/_drupal.scss */
   nav.tabs .active {
     font-weight: bold;
     background: #ededed;
@@ -2137,61 +2106,59 @@ nav.tabs {
 
 /* 3 Contextual  */
 /* 4 Pager  */
-/* line 96, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 96, ../sass/modules/_drupal.scss */
 .item-list-pager {
   padding: 5px 0;
   text-align: center; }
 
-/* line 101, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 101, ../sass/modules/_drupal.scss */
 .pager {
   display: inline-block; }
-  /* line 103, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 103, ../sass/modules/_drupal.scss */
   .pager li {
     float: left;
     display: inline-block; }
-    /* line 109, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 109, ../sass/modules/_drupal.scss */
     .pager li a, .pager li.current, .pager li.ellipsis {
       padding: 5px 10px;
-      border: 1px solid #ddd;
+      border: 1px solid #dddddd;
       border-right: none;
       background: #efefef; }
-    /* line 115, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 115, ../sass/modules/_drupal.scss */
     .pager li a {
       display: block; }
-    /* line 118, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 118, ../sass/modules/_drupal.scss */
     .pager li a:hover {
       background: #ececec;
       cursor: pointer;
       text-shadow: rbga(1, 50, 50, 0.9), 0px, 0px, 2px;
       text-decoration: none; }
-    /* line 124, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 124, ../sass/modules/_drupal.scss */
     .pager li.first a {
-      -moz-border-radius: 3px 0 0 3px;
       -webkit-border-radius: 3px 0 0 3px;
-      -o-border-radius: 3px 0 0 3px;
+      -moz-border-radius: 3px 0 0 3px;
       -ms-border-radius: 3px 0 0 3px;
-      -khtml-border-radius: 3px 0 0 3px;
+      -o-border-radius: 3px 0 0 3px;
       border-radius: 3px 0 0 3px; }
-    /* line 127, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 127, ../sass/modules/_drupal.scss */
     .pager li.last a {
-      -moz-border-radius: 0 3px 3px 0;
       -webkit-border-radius: 0 3px 3px 0;
-      -o-border-radius: 0 3px 3px 0;
+      -moz-border-radius: 0 3px 3px 0;
       -ms-border-radius: 0 3px 3px 0;
-      -khtml-border-radius: 0 3px 3px 0;
+      -o-border-radius: 0 3px 3px 0;
       border-radius: 0 3px 3px 0;
-      border-right: 1px solid #ddd; }
-    /* line 131, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+      border-right: 1px solid #dddddd; }
+    /* line 131, ../sass/modules/_drupal.scss */
     .pager li.current {
       background-color: #eaeaea;
       font-weight: bold;
       color: #666; }
-    /* line 137, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 137, ../sass/modules/_drupal.scss */
     .pager li.ellipsis {
       color: #ccc;
       padding: 5px; }
 
-/* line 157, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 157, ../sass/modules/_drupal.scss */
 .breadcrumb {
   padding-bottom: 5px;
   margin-bottom: 5px; }
@@ -2200,19 +2167,19 @@ nav.tabs {
 5 Drupal widgets
 ------------------------------------------------------------------------------------------------------------ */
 /* block */
-/* line 167, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 167, ../sass/modules/_drupal.scss */
 .block {
   margin-bottom: 5px;
   padding-bottom: 5px; }
-  /* line 172, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 172, ../sass/modules/_drupal.scss */
   .block .title {
     font-size: 18px;
     line-height: 24px; }
-  /* line 176, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 176, ../sass/modules/_drupal.scss */
   .block h3 {
     font-size: 15px; }
 
-/* line 186, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 186, ../sass/modules/_drupal.scss */
 .site-slogan {
   color: #aaa;
   width: 160px;
@@ -2224,64 +2191,65 @@ nav.tabs {
 
 /* ----------------------------- drupal widgets: user login.------------------------------------------------ */
 /*--------------- user  login  ----*/
-/* line 199, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 199, ../sass/modules/_drupal.scss */
 #user-login, #user-register-form, #user-pass {
   width: 385px;
   margin: 10px auto;
   background: #eee;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   padding: 10px;
-  -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  -khtml-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px; }
-  /* line 207, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 207, ../sass/modules/_drupal.scss */
   #user-login a, #user-register-form a, #user-pass a {
     font-size: 7.5px;
     font-size: 12px;
     text-decoration: none;
     font-weight: bold; }
-  /* line 214, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 214, ../sass/modules/_drupal.scss */
   #user-login label, #user-register-form label, #user-pass label {
     text-align: left;
     width: 0px;
     text-indent: -9999px;
     padding: 0;
     margin: 0; }
-  /* line 221, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 221, ../sass/modules/_drupal.scss */
   #user-login label[for="edit-mollom-captcha"], #user-register-form label[for="edit-mollom-captcha"], #user-pass label[for="edit-mollom-captcha"] {
     width: 100%;
     text-indent: 0px; }
-  /* line 225, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 225, ../sass/modules/_drupal.scss */
   #user-login input, #user-register-form input, #user-pass input {
     width: 350px;
     padding-left: 20px; }
-  /* line 230, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 230, ../sass/modules/_drupal.scss */
   #user-login #edit-name, #user-login .username, #user-register-form #edit-name, #user-register-form .username, #user-pass #edit-name, #user-pass .username {
     background: white url(../images/bijou/Person.png) no-repeat 5px center; }
-  /* line 233, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 233, ../sass/modules/_drupal.scss */
   #user-login input[type="password"], #user-register-form input[type="password"], #user-pass input[type="password"] {
     background: white url(../images/bijou/key.png) no-repeat 5px center; }
-  /* line 236, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 236, ../sass/modules/_drupal.scss */
   #user-login input[type="email"], #user-login input[name="conf_mail"], #user-register-form input[type="email"], #user-register-form input[name="conf_mail"], #user-pass input[type="email"], #user-pass input[name="conf_mail"] {
     background: white url(../images/bijou/Email.png) no-repeat 5px center; }
-  /* line 240, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 240, ../sass/modules/_drupal.scss */
   #user-login #edit-mollom-captcha, #user-register-form #edit-mollom-captcha, #user-pass #edit-mollom-captcha {
     display: inline-block;
     background: white url(../images/bijou/tv.png) no-repeat 5px center; }
-  /* line 246, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 246, ../sass/modules/_drupal.scss */
   #user-login .form-type-textfield,
-  #user-login .form-type-password, #user-register-form .form-type-textfield, #user-register-form .form-type-password, #user-pass .form-type-textfield, #user-pass .form-type-password {
+  #user-login .form-type-password, #user-register-form .form-type-textfield,
+  #user-register-form .form-type-password, #user-pass .form-type-textfield,
+  #user-pass .form-type-password {
     padding: 3px 0;
     margin: 0; }
-  /* line 252, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 252, ../sass/modules/_drupal.scss */
   #user-login .form-actions, #user-register-form .form-actions, #user-pass .form-actions {
     float: none;
     padding: 0px;
     text-align: left; }
-    /* line 257, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 257, ../sass/modules/_drupal.scss */
     #user-login .form-actions input, #user-register-form .form-actions input, #user-pass .form-actions input {
       margin: 0; }
 
@@ -2294,119 +2262,117 @@ input.username{
   width:30%;
 }
 */
-/* line 275, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 275, ../sass/modules/_drupal.scss */
 .confirm-parent, .password-parent {
   width: auto; }
 
-/* line 278, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 278, ../sass/modules/_drupal.scss */
 .form-type-password-confirm {
   position: relative;
   display: block; }
-  /* line 282, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 282, ../sass/modules/_drupal.scss */
   .form-type-password-confirm .password-suggestions {
     position: relative!important; }
-    /* line 284, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+    /* line 284, ../sass/modules/_drupal.scss */
     .form-type-password-confirm .password-suggestions ul {
       padding-left: 0;
       list-style: none inside; }
 
-/* line 294, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 294, ../sass/modules/_drupal.scss */
 .password-strength {
   position: absolute;
   left: 290px;
   top: -11px; }
-  /* line 300, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 300, ../sass/modules/_drupal.scss */
   .password-strength .password-strength-text {
     display: none; }
-  /* line 303, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 303, ../sass/modules/_drupal.scss */
   .password-strength .password-strength-title {
     text-indent: -900em; }
-  /* line 306, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 306, ../sass/modules/_drupal.scss */
   .password-strength .password-indicator {
     background-color: #eee;
     height: 15px;
     width: 60px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
     -ms-border-radius: 3px;
-    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
     border-radius: 3px; }
-  /* line 314, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 314, ../sass/modules/_drupal.scss */
   .password-strength .password-indicator div {
     height: 100%;
     width: 0%;
     background-color: #ddd;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
     -ms-border-radius: 3px;
-    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
     border-radius: 3px; }
 
-/* line 324, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 324, ../sass/modules/_drupal.scss */
 div.password-confirm {
   text-indent: -999em;
   position: absolute;
   top: 28px;
   left: 330px; }
-  /* line 330, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 330, ../sass/modules/_drupal.scss */
   div.password-confirm .ok {
     display: block;
     width: 20px;
     height: 20px;
     background: transparent url(../images/bijou/like.png) no-repeat center center; }
-  /* line 336, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+  /* line 336, ../sass/modules/_drupal.scss */
   div.password-confirm .error {
     display: block;
     width: 20px;
     height: 20px;
     background: transparent url(../images/bijou/remove.png) no-repeat center center; }
 
-/* line 345, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 345, ../sass/modules/_drupal.scss */
 #edit-status {
   padding-left: 19%; }
 
-/* line 352, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 352, ../sass/modules/_drupal.scss */
 #user-login-form .form-type-textfield,
 #user-login-form .form-type-password {
   padding: 5px 0;
   text-align: right; }
-/* line 358, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 358, ../sass/modules/_drupal.scss */
 #user-login-form label {
   display: none; }
-/* line 359, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 359, ../sass/modules/_drupal.scss */
 #user-login-form input {
   width: 90%; }
-/* line 360, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 360, ../sass/modules/_drupal.scss */
 .oldie #user-login-form label {
   width: 40%;
   display: inline; }
-/* line 361, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 361, ../sass/modules/_drupal.scss */
 .oldie #user-login-form input {
   width: 50%; }
-/* line 362, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 362, ../sass/modules/_drupal.scss */
 .ie9 #user-login-form label {
   width: 40%;
   display: inline; }
-/* line 363, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 363, ../sass/modules/_drupal.scss */
 .ie9 #user-login-form input {
   width: 50%; }
-/* line 365, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 365, ../sass/modules/_drupal.scss */
 #user-login-form .form-actions {
   text-align: right; }
-/* line 368, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 368, ../sass/modules/_drupal.scss */
 #user-login-form input[type=submit] {
   width: auto; }
-/* line 372, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 372, ../sass/modules/_drupal.scss */
 #user-login-form small {
   text-align: right; }
-/* line 376, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 376, ../sass/modules/_drupal.scss */
 #user-login-form .register {
   text-align: center; }
 
 /* ----------------------------- drupal widgets: search.------------------------------------------------ */
-/* line 385, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 385, ../sass/modules/_drupal.scss */
 .search input[type="search"] {
   width: 115px;
   padding-left: 10px;
@@ -2414,17 +2380,15 @@ div.password-confirm {
   background: url(../images/search.png) no-repeat;
   border: none;
   float: left;
-  -moz-box-shadow: 0px 0px 0px 0px #52a8ec;
   -webkit-box-shadow: 0px 0px 0px 0px #52a8ec;
-  -o-box-shadow: 0px 0px 0px 0px #52a8ec;
+  -moz-box-shadow: 0px 0px 0px 0px #52a8ec;
   box-shadow: 0px 0px 0px 0px #52a8ec;
-  -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  -o-border-radius: 0px;
+  -moz-border-radius: 0px;
   -ms-border-radius: 0px;
-  -khtml-border-radius: 0px;
+  -o-border-radius: 0px;
   border-radius: 0px; }
-/* line 395, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 395, ../sass/modules/_drupal.scss */
 .search input[type="submit"], .search input[type="submit"]#edit-submit {
   width: 28px;
   padding: 0;
@@ -2438,115 +2402,113 @@ div.password-confirm {
   text-align: left;
   float: left;
   border: none;
-  -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  -o-border-radius: 0px;
+  -moz-border-radius: 0px;
   -ms-border-radius: 0px;
-  -khtml-border-radius: 0px;
+  -o-border-radius: 0px;
   border-radius: 0px;
-  -moz-box-shadow: 0px 0px 0px 0px #52a8ec;
   -webkit-box-shadow: 0px 0px 0px 0px #52a8ec;
-  -o-box-shadow: 0px 0px 0px 0px #52a8ec;
+  -moz-box-shadow: 0px 0px 0px 0px #52a8ec;
   box-shadow: 0px 0px 0px 0px #52a8ec; }
-/* line 411, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_drupal.scss */
+/* line 411, ../sass/modules/_drupal.scss */
 .search .form-actions {
   float: none; }
 
-/* line 4, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 4, ../sass/modules/_admin.scss */
 div.admin a {
   text-decoration: none; }
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 7, ../sass/modules/_admin.scss */
 div.admin .left {
   margin-left: 0; }
-/* line 8, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 8, ../sass/modules/_admin.scss */
 div.admin .right {
   text-align: left; }
 
-/* line 13, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 13, ../sass/modules/_admin.scss */
 div.admin-panel {
   padding: 5px 0; }
-  /* line 16, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+  /* line 16, ../sass/modules/_admin.scss */
   div.admin-panel h3 {
     font-size: 18px;
     line-height: 28.8px;
     text-transform: uppercase; }
-  /* line 21, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+  /* line 21, ../sass/modules/_admin.scss */
   div.admin-panel .body {
     padding: 0; }
-  /* line 24, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+  /* line 24, ../sass/modules/_admin.scss */
   div.admin-panel dd {
     font-size: 13.5px;
     line-height: 21.6px;
     color: #666; }
 
 /* node edit */
-/* line 33, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 33, ../sass/modules/_admin.scss */
 body.page-node-edit h1 {
   font-size: 30px;
   line-height: 30px; }
 
-/* line 37, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 37, ../sass/modules/_admin.scss */
 h1 em {
   color: #666; }
 
-/* line 41, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_admin.scss */
+/* line 41, ../sass/modules/_admin.scss */
 #system-modules-uninstall label {
   width: 100%;
   text-align: left; }
 
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+/* line 1, ../sass/modules/_forum.scss */
 .forum-overview article {
   background: white; }
-  /* line 5, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+  /* line 5, ../sass/modules/_forum.scss */
   .forum-overview article h3 {
     padding: 5px; }
-  /* line 8, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+  /* line 8, ../sass/modules/_forum.scss */
   .forum-overview article p {
     padding: 5px; }
 
-/* line 26, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+/* line 26, ../sass/modules/_forum.scss */
 tr.sticky td {
   background: yellow; }
 
-/* line 36, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+/* line 36, ../sass/modules/_forum.scss */
 .forum-topic-list .last-reply,
 .forum-topic-list .replies {
   font-size: 0.8em; }
-/* line 39, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+/* line 39, ../sass/modules/_forum.scss */
 .forum-topic-list i {
   float: right;
   font-style: normal;
   font-size: 0.8em; }
 
-/* line 62, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/modules/_forum.scss */
+/* line 62, ../sass/modules/_forum.scss */
 .indent {
   margin-left: 20px; }
 
 /* -------------------------------------------  * * * -------------------------------------------
 Effects
 ------------------------------------------------------------------------------------------------- */
-/* line 1, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+/* line 1, ../sass/_slides.scss */
 .slides {
-  -moz-box-shadow: #8eacb2 0px 0px 8px;
   -webkit-box-shadow: #8eacb2 0px 0px 8px;
-  -o-box-shadow: #8eacb2 0px 0px 8px;
+  -moz-box-shadow: #8eacb2 0px 0px 8px;
   box-shadow: #8eacb2 0px 0px 8px;
   background: #fff;
-  border: 10px solid #fff;
-  width: 620px; }
+  border: 10px solid white;
+  width: 620px;
+  position: relative; }
 
-/* line 8, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+/* line 9, ../sass/_slides.scss */
 .slides_container {
   width: 620px;
   height: 280px;
   overflow: hidden; }
-  /* line 12, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+  /* line 13, ../sass/_slides.scss */
   .slides_container div {
     width: 620px;
     height: 280px;
     display: block; }
 
-/* line 22, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+/* line 23, ../sass/_slides.scss */
 .slides h3 {
   position: absolute;
   z-index: 101;
@@ -2561,37 +2523,34 @@ Effects
   text-transform: uppercase;
   font-size: 30px;
   padding: 5px; }
-  /* line 36, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+  /* line 37, ../sass/_slides.scss */
   .slides h3 a {
     color: #fff; }
-/* line 40, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+/* line 41, ../sass/_slides.scss */
 .slides .pagination {
   position: absolute;
   z-index: 101;
   top: 20px;
   left: 50%;
   width: 200px; }
-  /* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+  /* line 47, ../sass/_slides.scss */
   .slides .pagination li {
     float: left;
     margin: 0 2px;
     list-style: none; }
-  /* line 51, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+  /* line 52, ../sass/_slides.scss */
   .slides .pagination li a {
     display: block;
     width: 12px;
     -webkit-border-radius: 12px 12px;
     -moz-border-radius: 12px / 12px;
-    -o-border-radius: 12px / 12px;
-    -ms-border-radius: 12px / 12px;
-    -khtml-border-radius: 12px / 12px;
     border-radius: 12px / 12px;
     padding-top: 12px;
     height: 0;
     overflow: hidden;
     background-color: gray;
     opacity: 0.8; }
-  /* line 61, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/_slides.scss */
+  /* line 62, ../sass/_slides.scss */
   .slides .pagination li.current a {
     background-color: white; }
 
@@ -2612,13 +2571,12 @@ Effects
 */
 /* line 506, ../sass/style.scss */
 .shadow img {
-  border: 5px solid #fff;
+  border: 5px solid white;
   margin-left: 2px;
   z-index: 1;
   position: relative;
-  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
 
 /* line 520, ../sass/style.scss */
@@ -2633,22 +2591,20 @@ Effects
   border: none; }
 /* line 532, ../sass/style.scss */
 .shadow_title img {
-  border: 5px solid #fff;
+  border: 5px solid white;
   margin-left: 2px;
   z-index: 1;
   position: relative;
-  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
 /* line 539, ../sass/style.scss */
 .shadow_title a:hover img {
   opacity: 0.5;
   -moz-opacity: 0.5;
   filter: alpha(opacity=50);
-  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2); }
 /* line 545, ../sass/style.scss */
 .shadow_title h4 {
@@ -2685,213 +2641,213 @@ Effects
 /* -------------------------------------------  * * * -------------------------------------------
 GRID
 ------------------------------------------------------------------------------------------------- */
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 7, ../sass/grid/_girlfriend.scss */
 .thumpnail-list-small ul li, .g1, .g2, .thumpnail-list li, .g3, .sidebar, footer[role="contentinfo"] > div > div, .forum-content article, .thirds li, .g4, header[role="banner"] figure.logo, .forum-overview article, .g5, .g6, .g7, .g8, header[role="banner"] .header, header[role="banner"] .header_menu, .g9, div[role="main"], .g10, .g11 {
   float: left;
   min-height: 1px;
   word-wrap: break-word;
   margin-left: 31px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .thumpnail-list-small ul li, .g1, .g2, .thumpnail-list li, .g3, .sidebar, footer[role="contentinfo"] > div > div, .forum-content article, .thirds li, .g4, header[role="banner"] figure.logo, .forum-overview article, .g5, .g6, .g7, .g8, header[role="banner"] .header, header[role="banner"] .header_menu, .g9, div[role="main"], .g10, .g11 {
   width: 54px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g2, .thumpnail-list li {
   width: 139px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g3, .sidebar, footer[role="contentinfo"] > div > div, .forum-content article, .thirds li {
   width: 224px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g4, header[role="banner"] figure.logo, .forum-overview article {
   width: 309px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g5 {
   width: 394px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g6 {
   width: 479px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g7 {
   width: 564px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g8, header[role="banner"] .header, header[role="banner"] .header_menu {
   width: 649px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g9, div[role="main"] {
   width: 734px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g10 {
   width: 819px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g11 {
   width: 904px; }
 
-/* line 20, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 20, ../sass/grid/_girlfriend.scss */
 .g12 {
   width: 989px; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp1 {
   margin-left: 85px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp2 {
   margin-left: 170px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp3 {
   margin-left: 255px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp4 {
   margin-left: 340px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp5 {
   margin-left: 425px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp6 {
   margin-left: 510px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp7 {
   margin-left: 595px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp8 {
   margin-left: 680px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp9 {
   margin-left: 765px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp10 {
   margin-left: 850px !important; }
 
-/* line 46, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 46, ../sass/grid/_girlfriend.scss */
 .gp11 {
   margin-left: 935px !important; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost1 {
   margin-right: 85px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost2 {
   margin-right: 170px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost3 {
   margin-right: 255px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost4 {
   margin-right: 340px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost5 {
   margin-right: 425px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost6 {
   margin-right: 510px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost7 {
   margin-right: 595px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost8 {
   margin-right: 680px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost9 {
   margin-right: 765px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost10 {
   margin-right: 850px !important;
   background: #d0d; }
 
-/* line 55, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 55, ../sass/grid/_girlfriend.scss */
 .gpost11 {
   margin-right: 935px !important;
   background: #d0d; }
 
-/* line 63, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 63, ../sass/grid/_girlfriend.scss */
 .gfull, body.front div[role="main"], body.onecolumn div[role="main"], footer[role="contentinfo"] aside {
   width: 989px;
   clear: both;
   min-height: 1px;
   float: left; }
 
-/* line 70, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 70, ../sass/grid/_girlfriend.scss */
 .gf, .thumpnail-list li:first-child, header[role="banner"] figure.logo, div[role="main"], footer[role="contentinfo"] > div > div:first-child, .forum-overview article.count-0, .thirds li:first-child {
   margin-left: 0!important;
   clear: left; }
 
-/* line 71, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 71, ../sass/grid/_girlfriend.scss */
 .clear {
   float: none; }
 
-/* line 72, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 72, ../sass/grid/_girlfriend.scss */
 .left {
   text-align: left; }
 
-/* line 73, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 73, ../sass/grid/_girlfriend.scss */
 .right {
   text-align: right; }
 
-/* line 74, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 74, ../sass/grid/_girlfriend.scss */
 .center {
   margin: 0px auto;
   float: none;
   text-align: center; }
 
-/* line 77, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 77, ../sass/grid/_girlfriend.scss */
 .cf:before, .thumpnail-list:before, .thumpnail-list-small:before, form .tabledrag-processed:before,
 form .field-multiple-table:before, .fieldset-wrapper:before, form .filter-wrapper:before, .cf:after, .thumpnail-list:after, .thumpnail-list-small:after, form .tabledrag-processed:after,
 form .field-multiple-table:after, .fieldset-wrapper:after, form .filter-wrapper:after {
   content: "";
   display: table; }
 
-/* line 78, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 78, ../sass/grid/_girlfriend.scss */
 .cf:after, .thumpnail-list:after, .thumpnail-list-small:after, form .tabledrag-processed:after,
 form .field-multiple-table:after, .fieldset-wrapper:after, form .filter-wrapper:after {
   clear: both; }
 
-/* line 79, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/grid/_girlfriend.scss */
+/* line 79, ../sass/grid/_girlfriend.scss */
 .cf, .thumpnail-list, .thumpnail-list-small, form .tabledrag-processed,
 form .field-multiple-table, .fieldset-wrapper, form .filter-wrapper {
   zoom: 1; }
 
-/* line 3, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 3, ../sass/base/_helpers.scss */
 .hidden {
   display: none;
   visibility: hidden; }
 
-/* line 7, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 7, ../sass/base/_helpers.scss */
 .visuallyhidden, header[role="banner"] .block h2, header[role="banner"] .block .title, header[role="banner"] form .form-actions, footer[role="contentinfo"] .block h2, footer[role="contentinfo"] .block .title {
   border: 0;
   clip: rect(0 0 0 0);
@@ -2902,7 +2858,7 @@ form .field-multiple-table, .fieldset-wrapper, form .filter-wrapper {
   position: absolute;
   width: 1px; }
 
-/* line 10, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 10, ../sass/base/_helpers.scss */
 .visuallyhidden.focusable:active, header[role="banner"] .block h2.focusable:active, header[role="banner"] .block .focusable.title:active, header[role="banner"] form .focusable.form-actions:active, footer[role="contentinfo"] .block h2.focusable:active, footer[role="contentinfo"] .block .focusable.title:active, .visuallyhidden.focusable:focus, header[role="banner"] .block h2.focusable:focus, header[role="banner"] .block .focusable.title:focus, header[role="banner"] form .focusable.form-actions:focus, footer[role="contentinfo"] .block h2.focusable:focus, footer[role="contentinfo"] .block .focusable.title:focus {
   clip: auto;
   height: auto;
@@ -2911,7 +2867,7 @@ form .field-multiple-table, .fieldset-wrapper, form .filter-wrapper {
   position: static;
   width: auto; }
 
-/* line 13, /Users/mortendk/Dropbox/websites/drupaldanmark.dev/sites/all/themes/mobydick/sass/base/_helpers.scss */
+/* line 13, ../sass/base/_helpers.scss */
 .invisible {
   visibility: hidden; }
 
@@ -2920,23 +2876,16 @@ Here be dragons ...
 ------------------------------------------------------------------------------------------------- */
 /* line 638, ../sass/style.scss */
 .cupid-green {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
-  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
-  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
-  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
-  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
-  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  /*  @include linear-gradient(color-stops(#7fbf4d, #63a62f), top); */
   border: 1px solid #63a62f;
   border-bottom: 1px solid #5b992b;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
-  -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
   -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
-  -o-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
   box-shadow: inset 0 1px 0 0 #96ca6d;
   color: #fff;
   font: bold 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -2948,15 +2897,9 @@ Here be dragons ...
   font: bold 20px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
   /* line 624, ../sass/style.scss */
   .cupid-green:hover {
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
-    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: linear-gradient(top, #76b347, #5e9e2e);
-    -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+    /* @include linear-gradient(color-stops(#76b347, #5e9e2e), top);*/
     -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
-    -o-box-shadow: inset 0 1px 0 0 #8dbf67;
+    -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
     box-shadow: inset 0 1px 0 0 #8dbf67;
     cursor: pointer;
     color: #bbfb98; }
@@ -2964,7 +2907,6 @@ Here be dragons ...
   .cupid-green:active {
     border: 1px solid #5b992b;
     border-bottom: 1px solid #538c27;
-    -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
-    -o-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
